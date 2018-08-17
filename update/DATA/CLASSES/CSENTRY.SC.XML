@@ -1,0 +1,13 @@
+<class id="CSentry" cpp_class="CVXUnit" parent="Sentry" entity="Units/CJavelinThrower/CSentry.ent.xml">
+
+	<properties race="Carthage"/>
+	<properties maxhealth="150"/>
+	<properties damage="26" armor_slash="0" armor_pierce="0"/>
+	<properties icon="gameres/icons/CJavelinThrower.bmp"/>
+	<properties unit_specials="Penetration, Keen sight, Freedom"/>
+
+	<properties projectile_class="Javelin"/>
+	<properties building_projectile_class="Javelin"/>
+	<sounds command="data/sound entities/VoiceCJavelinThrower.xml"/>
+
+</class>
