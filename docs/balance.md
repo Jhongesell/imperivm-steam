@@ -31,6 +31,12 @@ Remember that **we don't want to upset the game: to do that, you can look for mo
 
 * Hero: less expensive (800)
 * Colosseum: units can train themselves until level 12 (same as Gaul command)
+* Tribune: improved stats (def: 16)
+
+### Rome (both)
+
+* Princeps: improved skills (atk: 20, health: 320)
+* Hero: changed skill (Rush/Aggressione/Acometida instead of Discipline/Erudizione/Veteranía, that's a bugged skill).
 
 ### Egypt
 
@@ -38,9 +44,12 @@ Remember that **we don't want to upset the game: to do that, you can look for mo
 
 ### Iberia
 
-* Horseman: a little more speed 
+* Horseman: a little more speed
+* Slinger / Fromboliere / Hondero: same speed as Egyptian Archers 
 * New tecnology to reveal hidden units : work in progress ;)
 
 ### Germany
 
 * Teuton Wolf: only available at Teuton Tents (atk 30, def 10, health 300, abilities: Attack skill, Toughness)
+* Archer: reduced stats (atk: 8)
+
