@@ -7,19 +7,25 @@ Remember that **we don't want to upset the game: to do that, you can look for mo
 ### In general
 
 * Same speed for every Hero
-* Same speed for every Archer
+* Same speed for every Archer (same as Egyptian Archer)
 * *When you have a Teuton Tent and you put food inside it, now you can store it and decide when and what unit obtain. (price(food): 400 for Teuton Archers and Riders, 500 for Teuton Wolfs).*
 
 ### Britain
 
 * *Units can obtain the Shield/Sword of Nobility at level 12 now*
+* Hero: improved stats (defense: 18)
+* In the Tavern, the 'Gambling' tecnology (Intercessione divina / Favor de los dioses) is changed with 'Baco festival' (same as Roma, but the price is 2000).
+* Wolfs have now Keen sight (Vista di lince / vista de lince)
+
 
 ### Carthage 
 
 * Javelin Thrower: more speed and health (180)
 * Noble: atk 40, health 360, price 400, abilities: Life Steal and Determination
-* Hero: skill change and improved stats (atk: 50; def: 12; health: 1200)
-* Berber assassin: more health (380)
+* Hero: skill change (Quick March for Egoism) and improved stats (atk: 50; def: 12; health: 1200)
+* Berber assassin (mauritano): more health (380)
+* Numidian rider (tuareg): starting price 360, improved stats (defense: 12)
+
 
 ### Republican Rome
 
@@ -27,7 +33,12 @@ Remember that **we don't want to upset the game: to do that, you can look for mo
 
 ### Egypt
 
-* "Path of the dead" only for heroes
+* "Path of the dead" doesn't work with Sentinels.
+
+### Iberia
+
+* Horseman: a little more speed 
+* New tecnology to reveal hidden units : work in progress ;)
 
 ### Germany
 
