@@ -14,7 +14,9 @@
 	
 	<method sig="createfoodmulesmall" vs="data/subai/create_food_mule_small.vs"/>
 	<method sig="createfoodmulebig"   vs="data/subai/create_food_mule_big.vs"/>
+	<method sig="creategoldmulebig"   vs="data/subai/create_gold_mule_big.vs"/>
 	<method sig="train" vs="data/subai/ttent_train.vs"/>
+	
 	
 	<properties
 		is_central_building="1"

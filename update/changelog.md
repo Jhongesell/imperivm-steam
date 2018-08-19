@@ -10,6 +10,7 @@ All the changes are listed below.
 * Teleport of dropped items
 * Units disappear into caves
 * Attaching of ships (and some other unexpected units) to hero
+* Gold wagons disappear into teuton tent
 
 ### GRAPHICAL MODIFICATIONS
 

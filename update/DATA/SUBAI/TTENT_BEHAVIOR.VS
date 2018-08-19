@@ -49,6 +49,7 @@ while (1) {
 	if (exp_gain < 0)
 		exp_gain = 0;
 	
+	// <<<<<< AUTO-SPAWN TEUTON ARCHERS AND TEUTON RIDER DISABLED >>>>>>
 	// respawn
 	bCanSpawn = true;
 	bIsIndependent = .settlement.IsIndependent();
@@ -176,7 +177,8 @@ while (1) {
 		qFriends = Intersect(qSight, ClassPlayerObjs("Military", .player));
 		qEnemies.GetObjList().ClearDead;
 		qFriends.GetObjList().ClearDead;
-		while (!qEnemies.IsEmpty() && olTeutonsOut.count == 0 && qFriends.IsEmpty()) {
+		while (!qEnemies.IsEmpty() && olTeutonsOut.count == 0 && qFriends.IsEmpty()) 
+		{
 			ObjList list1;
 			int newplayer, k;
 
@@ -229,9 +231,9 @@ while (1) {
 			.SetPlayer(qEnemies.GetObjList()[0].player);
 
 			// redefine enemies and friends
-  		qSight = VisibleObjsInSight(this, "Unit");
-  		qEnemies = Intersect(qSight, Union(EnemyObjs(.player, "Military"),EnemyObjs(.player, "BaseMage")));
-	  	qFriends = Intersect(qSight, ClassPlayerObjs("Military", .player));
+			qSight = VisibleObjsInSight(this, "Unit");
+			qEnemies = Intersect(qSight, Union(EnemyObjs(.player, "Military"),EnemyObjs(.player, "BaseMage")));
+			qFriends = Intersect(qSight, ClassPlayerObjs("Military", .player));
 			old_player = .player;
 			break;
 		}
@@ -272,6 +274,15 @@ while (1) {
  			}
  		}
  	}
+	
+	//gold wagon exit!
+	if(.settlement().IsIndependent == false)
+	{
+		if(.settlement().gold() >= 1)
+		{
+			.SetCommand("creategoldmulebig");
+		}
+	}
 	
 	nTimeFromLastSpawn += 1000;
 	Sleep(1000);
