@@ -42,20 +42,22 @@ old_exp_gain = 0;
 while (1) {
 	bool bCanSpawn;
 	bool bHasFood;
-	bool bIsIndependent;
-	int foodcost;
+	//bool bIsIndependent;
+	//int foodcost;
 
 	exp_gain = GetTime() / 120000 - 5;
 	if (exp_gain < 0)
 		exp_gain = 0;
 	
+	olAll1.ClearDead();
+	olAll2.ClearDead();
+	
+	/* <<<<<< AUTO-SPAWN TEUTON ARCHERS AND TEUTON RIDER DISABLED >>>>>>
 	// respawn
 	bCanSpawn = true;
 	bIsIndependent = .settlement.IsIndependent();
 	foodcost = 400;
 	
-	olAll1.ClearDead();
-	olAll2.ClearDead();
 	while (nTimeFromLastSpawn > nUnitSpawnRate * nGroupSpawn && bCanSpawn) 
 	{
 		int nSpawn;
@@ -90,10 +92,11 @@ while (1) {
 				olAll1.Add(u1);
 				nSpawn+=1;
 			}
-			if (olAll2.count<nArmy )
+			if(olAll2.count < nArmy )
 			{
 				Unit u2;
 				if (!bIsIndependent)
+				{
 					if (.settlement.food < foodcost)
 					{
 						bCanSpawn = false;
@@ -101,7 +104,8 @@ while (1) {
 					}
 					else
 						.settlement.SetFood(.settlement.food - foodcost);
-
+				}
+				
 				u2 = Place("TTeutonRider", .pos, .player);
 				u2.SetFood(u2.maxfood);
 				u2.SetFeeding(false);
@@ -112,7 +116,8 @@ while (1) {
 			}
 		}
 	}
-
+	*/
+	
 	olTeutonsOut.ClearDead();
 	// clear the teutons that were commanded from our list
 	for (i = olTeutonsOut.count - 1; i >= 0; i -= 1)
