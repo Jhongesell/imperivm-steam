@@ -29,7 +29,7 @@
 	<src obj="TTent"/>
 </cmd>
 
-<cmd name="trainTTeutonRider" priority="3"
+<cmd name="newTTeutonRider" priority="3"
 	button="actions/train TTeutonRider.bmp"
 	queueicon="gameres/icons/TTeutonRider.bmp"
 	groupverifier="data/subai/verify_cmdcost_building.vs"
@@ -47,7 +47,7 @@
 	<src obj="TTent"/>
 </cmd>
 
-<cmd name="trainTTeutonArcher" priority="4"
+<cmd name="newTTeutonArcher" priority="4"
 	button="actions/train TTeutonArcher.bmp"
 	queueicon="gameres/icons/TTeutonArcher.bmp"
 	groupverifier="data/subai/verify_cmdcost_building.vs"
@@ -65,7 +65,7 @@
 	<src obj="TTent"/>
 </cmd>
 
-<cmd name="trainTTeutonWolf" priority="5"
+<cmd name="newTTeutonWolf" priority="5"
 	button="actions/train TTeutonWolf.bmp"
 	queueicon="gameres/icons/TTeutonWolf.bmp"
 	groupverifier="data/subai/verify_cmdcost_building.vs"
