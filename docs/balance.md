@@ -18,7 +18,8 @@ Remember that **we don't want to upset the game: to do that, you can look for mo
 
 * Javelin Thrower: more speed and health (180)
 * Noble: atk 40, health 360, price 400, abilities: Life Steal and Determination
-* Hero: skill change
+* Hero: skill change and improved stats (atk: 50; def: 12; health: 1200)
+* Berber assassin: more health (380)
 
 ### Republican Rome
 
