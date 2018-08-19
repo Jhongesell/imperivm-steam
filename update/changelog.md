@@ -11,6 +11,7 @@ All the changes are listed below.
 * Units disappear into caves
 * Attaching of ships (and some other unexpected units) to hero
 * Gold wagons disappear into teuton tent
+* Ship bug that allowed you to move an allied ship without shared control
 
 ### GRAPHICAL MODIFICATIONS
 

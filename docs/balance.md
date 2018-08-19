@@ -51,5 +51,4 @@ Remember that **we don't want to upset the game: to do that, you can look for mo
 ### Germany
 
 * Teuton Wolf: only available at Teuton Tents (atk 30, def 10, health 300, abilities: Attack skill, Toughness)
-* Archer: reduced stats (atk: 8)
 
