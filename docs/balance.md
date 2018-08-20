@@ -14,7 +14,7 @@ Remember that **we don't want to upset the game: to do that, you can look for mo
 
 * *Units can obtain the Shield/Sword of Nobility at level 12 now*
 * Hero: improved stats (defense: 18)
-* In the Tavern, the 'Gambling' tecnology (Intercessione divina / Favor de los dioses) is changed with 'Baco festival' (same as Roma, but the price is 2000).
+* In the Tavern, the 'Gambling' tecnology (Intercessione divina / Favor de los dioses) now gives you 50% of chances to get 2500 of **food** and explores a lot the map around the Townhall (Foro).
 * Wolfs have now Keen sight (Vista di lince / vista de lince)
 
 
