@@ -40,7 +40,7 @@ Remember that **we don't want to upset the game: to do that, you can look for mo
 
 ### Egypt
 
-* "Path of the dead" doesn't work with Sentinels.
+* "Path of the dead" doesn't work with Sentinels and Catapults.
 
 ### Iberia
 
