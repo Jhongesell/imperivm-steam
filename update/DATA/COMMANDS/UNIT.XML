@@ -325,7 +325,6 @@
 	<nsrc obj="Sentry"/>
 </cmd>
 
-<!--
 <cmd name="leave_parry_mode" priority="12"
 	button="actions/detach.bmp"
 	groupverifier="data/subai/unit_leave_parry_mode_verify.vs"
@@ -335,7 +334,7 @@
 	<src obj="Unit"/>
 	<nsrc obj="Sentry"/>
 </cmd>
--->
+
 <cmd name="to_teuton_rider" priority="13"
 	button="actions/train TTeutonRider.bmp"
 	key="x"

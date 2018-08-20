@@ -26,4 +26,4 @@ if(.InShip() == true)
 	}	//Fine else.
 }	//Fine if.
 
-while(!.Goto(pt,0,3300,false));
+while(!.Goto(pt,0,3300,false,5000));

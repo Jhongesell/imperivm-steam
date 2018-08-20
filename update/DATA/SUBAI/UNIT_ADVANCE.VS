@@ -5,8 +5,8 @@ Obj u;
 
 this = me.AsUnit();
 
-if (.IsValid) // leave parry mode at new command
- .SetParryMode(false);
+if(.IsValid() == true && IsAIPlayer(.player) == true) // leave parry mode at new command
+	.SetParryMode(false);
  
 while (1) 
 {

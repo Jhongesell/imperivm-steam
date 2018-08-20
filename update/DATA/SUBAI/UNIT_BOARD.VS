@@ -7,8 +7,8 @@ ObjList ol;
 this = This.AsUnit;
 ship = obj.AsShip;
 
-if (.IsValid() == true) // leave parry mode at new command
- .SetParryMode(false);
+if(.IsValid() == true && IsAIPlayer(.player) == true) // leave parry mode at new command
+	.SetParryMode(false);
 
 if( ship.IsValid() == true) 
 {

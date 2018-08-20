@@ -12,7 +12,9 @@ if( (u.IsEnemy(this) == false && .player() != u.player()) || (u.IsHeirOf("Catapu
 	return;
 }
 
-.SetParryMode(false); // leave parry mode at new command
+if(.IsValid() == true && IsAIPlayer(.player) == true) // leave parry mode at new command
+	.SetParryMode(false);
+ 
 if(.HasSpecial(26) ) {
 	.SetVisible(true);
 }

@@ -27,7 +27,7 @@ if(.InShip() == true)
 }	//Fine if.
 
 
-if (.IsValid) // leave parry mode at new command
- .SetParryMode(false);
+if(.IsValid() == true && IsAIPlayer(.player) == true) // leave parry mode at new command
+	.SetParryMode(false);
 
 while (!.Goto(pt, 0, 2000, true, 0));
