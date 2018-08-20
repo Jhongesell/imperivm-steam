@@ -32,6 +32,10 @@ All the changes are listed below.
 
 * "Path of the dead" doesn't work with Sentinels and Catapults.
 
+### Carthage:
+
+* "Spoils of War" doesn't work with Sentinels and Catapults.
+
 ### OTHER EDITS
 
 * When you have a Teuton Tent and you put food inside it, now you can store it and decide when and what unit obtain. (price(food): 400 for Teuton Archers and Riders, 500 for Teuton Wolfs).
