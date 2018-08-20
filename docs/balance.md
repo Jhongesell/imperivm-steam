@@ -30,7 +30,7 @@ Remember that **we don't want to upset the game: to do that, you can look for mo
 ### Republican Rome
 
 * Hero: less expensive (800)
-* Colosseum: units can train themselves until level 12 (same as Gaul command)
+* Colosseum: now has tecnology "Nobility"
 * Tribune: improved stats (def: 16)
 
 ### Rome (both)
@@ -40,7 +40,7 @@ Remember that **we don't want to upset the game: to do that, you can look for mo
 
 ### Egypt
 
-* "Path of the dead" doesn't work with Sentinels and Catapults.
+* *"Path of the dead" doesn't work with Sentinels and Catapults.*
 
 ### Iberia
 

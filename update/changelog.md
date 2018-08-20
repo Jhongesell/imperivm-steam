@@ -12,6 +12,7 @@ All the changes are listed below.
 * Attaching of ships (and some other unexpected units) to hero
 * Gold wagons disappear into teuton tent
 * Ship bug that allowed you to move an allied ship without shared control
+* Units can't now destroy allied catapults
 
 ### GRAPHICAL MODIFICATIONS
 
@@ -26,6 +27,10 @@ All the changes are listed below.
 
 ### Britain:
 * Units can obtain the Shield/Sword of Nobility at level 12 now
+
+### Egypt:
+
+* "Path of the dead" doesn't work with Sentinels and Catapults.
 
 ### OTHER EDITS
 
