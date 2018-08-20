@@ -7,7 +7,7 @@ this = me.AsUnit();
 
 if (!.IsValid()) return;
 if (!u.IsValid()) return;
-if(u. player() != .player() && u.IsEnemy(this) == false)
+if( (u.IsEnemy(this) == false && .player() != u.player()) || (u.IsHeirOf("Catapult") && u.IsEnemy(this) == false) || (u.IsHeirOf("RamUnit") && u.IsEnemy(this) == false) )
 {
 	return;
 }
