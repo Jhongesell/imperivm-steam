@@ -41,6 +41,7 @@ All the changes are listed below.
 
 * When you have a Teuton Tent and you put food inside it, now you can store it and decide when and what unit obtain. (price(food): 400 for Teuton Archers and Riders, 500 for Teuton Wolfs).
 * Added a new command shows hidden units
+* Improved 'Parry' mode (Contenimento / Contencion) system
 * Improved AI system
 * Improved units boarding system
 * Deleted the skill section from animals' interface
