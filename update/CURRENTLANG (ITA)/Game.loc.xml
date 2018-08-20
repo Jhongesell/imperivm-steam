@@ -6,6 +6,11 @@
 <translationtableentry text="Teuton Wolves@TTeutonWolf class name plural" justtext="Teuton Wolves" context="TTeutonWolf class name plural" result="Incursori teutonici" comment=""/>
 <translationtableentry text="German Teuton Wolf@/Editor/combo/uniticons.ini:FillCombo:German Teuton Wolf " justtext="German Teuton Wolf" context="/Editor/combo/uniticons.ini:FillCombo:German Teuton Wolf " result="Incursore teutonico" comment=""/>
 <translationtableentry text="Equip Teuton Wolf@newTTeutonWolf" justtext="Equip Teuton Wolf" context="newTTeutonWolf" result="Equipaggia incursore teutonico" comment="Rollover for command newTTeutonWolf"/>
+<!-- cavallo -->
+<translationtableentry text="Whorse@/Editor/combo/uniticons.ini:FillCombo:Whorse " justtext="Horse" context="/Editor/combo/uniticons.ini:FillCombo:Whorse " result="Cavallo" comment=""/>
+<translationtableentry text="Whorse@Whorse class name" justtext="Horse" context="Whorse class name" result="Cavallo" comment=""/>
+<translationtableentry text="Whorse@Whorse class name plural" justtext="Horse" context="Whorse class name plural" result="Cavalli" comment=""/>
+<translationtableentry text="Whorse@editortree/Units/Animals" justtext="Horse" context="" result="Cavallo" comment="editortree"/>
 <!-- Germania (correzioni varie)-->
 <translationtableentry text="Village (Germany)@editortree/Structures" justtext="Village (Germany)" context="" result="Villaggio germanico" comment="editortree"/>
 <translationtableentry text="German walls" justtext="German walls" context="" result="Mura germaniche" comment="Editor place tool"/>

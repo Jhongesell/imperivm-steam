@@ -6,12 +6,16 @@
 <translationtableentry text="Teuton Wolves@TTeutonWolf class name plural" justtext="Teuton Wolves" context="TTeutonWolf class name plural" result="Asaltadores teutónicos" comment=""/>
 <translationtableentry text="German Teuton Wolf@/Editor/combo/uniticons.ini:FillCombo:German Teuton Wolf " justtext="German Teuton Wolf" context="/Editor/combo/uniticons.ini:FillCombo:German Teuton Wolf " result="Asaltador teutón" comment=""/>
 <translationtableentry text="Equip Teuton Wolf@newTTeutonWolf" justtext="Equip Teuton Wolf" context="newTTeutonWolf" result="Equipar asaltador teutón" comment="Rollover for command newTTeutonWolf"/>
+<!-- cavallo selvatico -->
+<translationtableentry text="Whorse@/Editor/combo/uniticons.ini:FillCombo:Whorse " justtext="Horse" context="/Editor/combo/uniticons.ini:FillCombo:Whorse " result="Caballo" comment=""/>
+<translationtableentry text="Whorse@Whorse class name" justtext="Horse" context="Whorse class name" result="Caballo" comment=""/>
+<translationtableentry text="Whorse@Whorse class name plural" justtext="Horse" context="Whorse class name plural" result="Caballos" comment=""/>
+<translationtableentry text="Whorse@editortree/Units/Animals" justtext="Horse" context="" result="Caballo" comment="editortree"/>
 <!-- correzioni -->
 <translationtableentry text="All warriors above level 12 receive a Noble Offense artifact (+4 damage) at their first kill@Noble Offence" justtext="All warriors above level 12 receive a Noble Offense artifact (+4 damage) at their first kill" context="Noble Offence" result="Tras derrotar al primer enemigo, los guerreros con nivel superior a 11 reciben la Espada de la nobleza que aumenta su ataque en 4 puntos" comment="Description of command Noble Offence"/>
 <translationtableentry text="All warriors above level 12 receive a Noble Defense artifact (+4 armor) at their first kill@Noble Defence" justtext="All warriors above level 12 receive a Noble Defense artifact (+4 armor) at their first kill" context="Noble Defence" result="Tras derrotar al primer enemigo, los guerreros con nivel superior a 11 reciben el Escudo de la nobleza que aumenta su defensa en 4 puntos" comment="Description of command Noble Defence"/>
 <translationtableentry text="Reveal@Reveal" justtext="Reveal" context="Reveal" result="Revela" comment="Rollover for command Reveal"/>
 <translationtableentry text="Show this unit if hidden@Reveal" justtext="Show this unit if hidden" context="Reveal" result="Revelar unidades invisibles" comment="Description of command Attack focus"/>
-
 <!-- parte originale -->
 <translationtableentry text="Bear teeth amulet" justtext="Bear teeth amulet" context="" result="Dientes de oso" comment="item name"/>
 <translationtableentry text="Adds 4 to damage" justtext="Adds 4 to damage" context="" result="Añade 4 puntos al ataque" comment="Description of item Bear teeth amulet"/>
