@@ -1,0 +1,9 @@
+<-- WHORSE -->
+
+12 DIRECTIONS
+
+DEATH.RLE.BMP	---> 16 frames
+GALOP.RLE.BMP	---> 12 frames
+IDLE.RLE.BMP	---> 10 frames
+TRANSITION	---> 13 frames
+TROT.RLE.BMP	---> 14 frames
