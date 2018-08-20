@@ -42,27 +42,31 @@ if(.IsValid() == true)
 .AsUnit().RemoveItemsOfType("Health charm");
 .AsUnit().RemoveItemsOfType("Knowledge charm");
 
-if(EnvReadString(.player(), "Path of the dead I") == "researched")
-{
-	if(.AsUnit().inherentlevel < 4)
-		.AsUnit().SetLevel(4);
-}
 
-if(EnvReadString(.player(), "Path of the dead II") == "researched")
+if(Victim.IsSentry() == false && Victim.IsHeirOf("Catapult") == false && Victim.IsHeirOf("RamUnit") == false)
 {
-	if(.AsUnit().inherentlevel < 8)
-		.AsUnit().SetLevel(8);
-}
+	//Path of death:
+	if(EnvReadString(.player(), "Path of the dead I") == "researched")
+	{
+		if(.AsUnit().inherentlevel < 4)
+			.AsUnit().SetLevel(4);
+	}
+	if(EnvReadString(.player(), "Path of the dead II") == "researched")
+	{
+		if(.AsUnit().inherentlevel < 8)
+			.AsUnit().SetLevel(8);
+	}
+	if (EnvReadString(.player(), "Path of the dead III") == "researched")
+	{
+		if(.AsUnit().inherentlevel < 12)
+			.AsUnit().SetLevel(12);
+	}
 
-if (EnvReadString(.player(), "Path of the dead III") == "researched")
-{
-	if(.AsUnit().inherentlevel < 12)
-		.AsUnit().SetLevel(12);
-}
-
-if(EnvReadString(.player(), "Spoils of war") == "researched") 
-{
-	.AddItem("Spoils of War");
+	//Spoils of War:
+	if(EnvReadString(.player(), "Spoils of war") == "researched") 
+	{
+		.AddItem("Spoils of War");
+	}
 }
 
 // rArena items
