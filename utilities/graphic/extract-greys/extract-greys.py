@@ -2,10 +2,10 @@ from PIL import Image
 
 name = input("Specify the PNG image name, without .png extension: ")
 
-name = name + ".png"
+name2 = name + ".png"
 
 try:
-    im = Image.open(name)
+    im = Image.open(name2)
 
     pix = list(im.getdata())
     w, h = im.size
@@ -13,16 +13,18 @@ try:
 
     new_pix = [(0,255,0,255)]*n
 
+
     for i in range(n):
         x = pix[i]
         if x[0]==x[1] and x[1]==x[2]:
             new_pix[i] = pix[i]
             
+            
     new_im = Image.new('RGB', im.size, "white")
 
     new_im.putdata(new_pix)
 
-    new_im.save('greys.png')        
+    new_im.save(name+'_greys.png')        
 
     input("OK! Press Enter to close")
     

@@ -1,0 +1,3 @@
+DIE 20
+IDLE 14
+WALK 15
