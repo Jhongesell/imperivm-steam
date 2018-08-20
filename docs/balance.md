@@ -20,7 +20,7 @@ Remember that **we don't want to upset the game: to do that, you can look for mo
 
 ### Carthage 
 
-* "Spoils of War" doesn't work with Sentinels and Catapults.
+* *"Spoils of War" doesn't work with Sentinels and Catapults.*
 * Javelin Thrower: more speed and health (180)
 * Noble: atk 40, health 360, price 400, abilities: Life Steal and Determination
 * Hero: skill change (Quick March for Egoism) and improved stats (atk: 50; def: 12; health: 1200)
@@ -41,7 +41,7 @@ Remember that **we don't want to upset the game: to do that, you can look for mo
 
 ### Egypt
 
-*"Path of the dead" doesn't work with Sentinels and Catapults.*
+* *"Path of the dead" doesn't work with Sentinels and Catapults.*
 
 ### Iberia
 
