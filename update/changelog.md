@@ -26,8 +26,13 @@ All the changes are listed below.
 
 ### BALANCE TO CIVILIZATIONS
 
+### In general
+* Same speed for every Hero
+* Same speed for every Archer (same as Egyptian Archer)
+
 ### Britain:
 * Units can obtain the Shield/Sword of Nobility at level 12 now
+* Hero: improved stats (defense: 18)
 
 ### Egypt:
 
@@ -36,6 +41,26 @@ All the changes are listed below.
 ### Carthage:
 
 * "Spoils of War" doesn't work with Sentinels and Catapults.
+* Javelin Thrower: more speed and health (180)
+* Berber assassin (mauritano): more health (380)
+
+### Iberia
+
+* Horseman: a little more speed
+* Slinger / Fromboliere / Hondero: same speed as Egyptian Archers 
+
+### Republican Rome
+
+* Tribune: improved stats (def: 16)
+
+### Rome (both)
+
+* Princeps: improved skills (atk: 20, health: 320)
+* Hero: changed skill (Rush/Aggressione/Acometida instead of Discipline/Erudizione/Veteranía, that's a bugged skill).
+
+### Germany
+
+* Teuton Wolf: only available at Teuton Tents (atk 30, def 10, health 300, abilities: Attack skill, Toughness)
 
 ### OTHER EDITS
 

@@ -2,8 +2,9 @@
 
 	<properties race="Iberia"/>
 	<properties maxhealth="240"/>
-	<properties damage="0" armor_slash="5" armor_pierce="5"/>
-	<properties speed="170"/>
+	<properties damage="0" armor_slash="8" armor_pierce="8"/>
+	<properties speed="175"/>
+    <properties unit_specials="Freedom, Keen sight"/>
 	<properties healthbar_type="3"/>
 
 	<properties icon="gameres/icons/ICavalry.bmp"/>
