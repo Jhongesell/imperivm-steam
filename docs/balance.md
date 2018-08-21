@@ -11,21 +11,20 @@ Remember that **we don't want to upset the game: to do that, you can look for mo
 
 ### Britain
 
+* In the Tavern, the 'Gambling' tecnology (Intercessione divina / Favor de los dioses) now gives you 50% of chances to get 2500 of **food** and explores a lot the map around the Townhall (Foro).
 * *Units can obtain the Shield/Sword of Nobility at level 12 now*
 * *Hero: improved stats (defense: 18)*
-* In the Tavern, the 'Gambling' tecnology (Intercessione divina / Favor de los dioses) now gives you 50% of chances to get 2500 of **food** and explores a lot the map around the Townhall (Foro).
-* Wolfs have now Keen sight (Vista di lince / vista de lince)
+* *Wolfs have now Keen sight (Vista di lince / vista de lince)*
 
 
 ### Carthage 
 
+* Noble: atk 40, health 360, price 400, abilities: Life Steal and Determination
+* Numidian rider (tuareg): starting price 360, improved stats (defense: 12)
 * *"Spoils of War" doesn't work with Sentinels and Catapults.*
 * *Javelin Thrower: more speed and health (180)*
-* Noble: atk 40, health 360, price 400, abilities: Life Steal and Determination
-* Hero: skill change (Quick March for Egoism) and improved stats (atk: 50; def: 12; health: 1200)
+* *Hero: skill change (Quick March for Egoism) and improved stats (atk: 50; def: 12; health: 1200)*
 * *Berber assassin (mauritano): more health (380)*
-* Numidian rider (tuareg): starting price 360, improved stats (defense: 12)
-
 
 ### Republican Rome
 
@@ -36,7 +35,7 @@ Remember that **we don't want to upset the game: to do that, you can look for mo
 ### Rome (both)
 
 * *Princeps: improved skills (atk: 20, health: 320)*
-* Hero: changed skill (Rush/Aggressione/Acometida instead of Discipline/Erudizione/Veteranía, that's a bugged skill).
+* *Hero: changed skill (Rush/Aggressione/Acometida instead of Discipline/Erudizione/Veteranía, that's a bugged skill).*
 
 ### Egypt
 

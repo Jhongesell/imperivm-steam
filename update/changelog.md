@@ -33,6 +33,7 @@ All the changes are listed below.
 ### Britain:
 * Units can obtain the Shield/Sword of Nobility at level 12 now
 * Hero: improved stats (defense: 18)
+* Wolfs have now Keen sight (Vista di lince / vista de lince)
 
 ### Egypt:
 
@@ -43,6 +44,7 @@ All the changes are listed below.
 * "Spoils of War" doesn't work with Sentinels and Catapults.
 * Javelin Thrower: more speed and health (180)
 * Berber assassin (mauritano): more health (380)
+* Hero: skill change (Quick March for Egoism) and improved stats (atk: 50; def: 12; health: 1200)
 
 ### Iberia
 

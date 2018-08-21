@@ -1,0 +1,7 @@
+<class id="WolfSummoned" cpp_class="CVXUnit" parent="WolfUnit" entity="Units/Wolf/Wolf.ent.xml">
+	<properties edittree_pos=""/>
+    <properties unit_specials="Keen sight"/>
+	<properties does_not_regenerate="1"/>
+	<properties stamina_dec_time = "18000"/> <!-- 18000 x 10 stamina = 3 minutes lifetime -->
+	<behavior script = "data/subai/summoning_behavior.vs"/>
+</class>
