@@ -326,7 +326,7 @@
 </cmd>
 
 <cmd name="leave_parry_mode" priority="12"
-	button="actions/detach.bmp"
+	button="actions/Leave Parry Mode.bmp"
 	groupverifier="data/subai/unit_leave_parry_mode_verify.vs"
 	immediate="yes"
 	rollover="Leave parry mode"
