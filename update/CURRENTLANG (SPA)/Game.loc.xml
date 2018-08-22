@@ -11,6 +11,9 @@
 <translationtableentry text="Whorse@Whorse class name" justtext="Horse" context="Whorse class name" result="Caballo" comment=""/>
 <translationtableentry text="Whorse@Whorse class name plural" justtext="Horse" context="Whorse class name plural" result="Caballos" comment=""/>
 <translationtableentry text="Whorse@editortree/Units/Animals" justtext="Horse" context="" result="Caballo" comment="editortree"/>
+<!-- disattiva parry mode -->
+<translationtableentry text="Leave parry mode@leave_parry_mode" justtext="Leave parry mode" context="leave_parry_mode" result="Dectivar el modo contención" comment="Rollover for command leave_parry_mode"/>
+<translationtableentry text="Put warriors in normal mode@leave_parry_mode" justtext="Put warrior in parry mode" context="leave_parry_mode" result="Quita al guerrero en modo de contención" comment="Description of command leave_parry_mode"/>
 <!-- correzioni -->
 <translationtableentry text="All warriors above level 12 receive a Noble Offense artifact (+4 damage) at their first kill@Noble Offence" justtext="All warriors above level 12 receive a Noble Offense artifact (+4 damage) at their first kill" context="Noble Offence" result="Tras derrotar al primer enemigo, los guerreros con nivel superior a 11 reciben la Espada de la nobleza que aumenta su ataque en 4 puntos" comment="Description of command Noble Offence"/>
 <translationtableentry text="All warriors above level 12 receive a Noble Defense artifact (+4 armor) at their first kill@Noble Defence" justtext="All warriors above level 12 receive a Noble Defense artifact (+4 armor) at their first kill" context="Noble Defence" result="Tras derrotar al primer enemigo, los guerreros con nivel superior a 11 reciben el Escudo de la nobleza que aumenta su defensa en 4 puntos" comment="Description of command Noble Defence"/>

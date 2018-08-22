@@ -11,6 +11,9 @@
 <translationtableentry text="Whorse@Whorse class name" justtext="Horse" context="Whorse class name" result="Cavallo" comment=""/>
 <translationtableentry text="Whorse@Whorse class name plural" justtext="Horse" context="Whorse class name plural" result="Cavalli" comment=""/>
 <translationtableentry text="Whorse@editortree/Units/Animals" justtext="Horse" context="" result="Cavallo" comment="editortree"/>
+<!-- disattiva parry mode -->
+<translationtableentry text="Leave parry mode@leave_parry_mode" justtext="Leave parry mode" context="leave_parry_mode" result="Disattiva modalità contenimento" comment="Rollover for command leave_parry_mode"/>
+<translationtableentry text="Put warriors in normal mode@leave_parry_mode" justtext="Put warrior in parry mode" context="leave_parry_mode" result="Togli il guerriero dalla modalità contenimento" comment="Description of command leave_parry_mode"/>
 <!-- Germania (correzioni varie)-->
 <translationtableentry text="Village (Germany)@editortree/Structures" justtext="Village (Germany)" context="" result="Villaggio germanico" comment="editortree"/>
 <translationtableentry text="German walls" justtext="German walls" context="" result="Mura germaniche" comment="Editor place tool"/>

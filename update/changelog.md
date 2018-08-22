@@ -41,6 +41,8 @@ All the changes are listed below.
 
 ### Carthage:
 
+* Noble: atk 40, health 360, price 400, abilities: Life Steal and Determination
+* Numidian rider (tuareg): starting price 360, improved stats (defense: 12)
 * "Spoils of War" doesn't work with Sentinels and Catapults.
 * Javelin Thrower: more speed and health (180)
 * Berber assassin (mauritano): more health (380)
@@ -54,11 +56,13 @@ All the changes are listed below.
 ### Republican Rome
 
 * Tribune: improved stats (def: 16)
+* Hero: less expensive (1000) and more health (1200)
+* Colosseum: now has tecnology "Nobility"
 
 ### Rome (both)
 
 * Princeps: improved skills (atk: 20, health: 320)
-* Hero: changed skill (Rush/Aggressione/Acometida instead of Discipline/Erudizione/Veteranía, that's a bugged skill).
+* Hero: changed skill (Rush/Aggressione/Acometida instead of Epic endurance and Discipline/Erudizione/Veteranía, that's a bugged skill).
 
 ### Germany
 

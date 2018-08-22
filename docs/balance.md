@@ -19,8 +19,8 @@ Remember that **we don't want to upset the game: to do that, you can look for mo
 
 ### Carthage 
 
-* Noble: atk 40, health 360, price 400, abilities: Life Steal and Determination
-* Numidian rider (tuareg): starting price 360, improved stats (defense: 12)
+* *Noble: atk 40, health 360, price 400, abilities: Life Steal and Determination*
+* *Numidian rider (tuareg): starting price 360, improved stats (defense: 12)*
 * *"Spoils of War" doesn't work with Sentinels and Catapults.*
 * *Javelin Thrower: more speed and health (180)*
 * *Hero: skill change (Quick March for Egoism) and improved stats (atk: 50; def: 12; health: 1200)*
@@ -28,14 +28,14 @@ Remember that **we don't want to upset the game: to do that, you can look for mo
 
 ### Republican Rome
 
-* Hero: less expensive (800) and more health (1200)
-* Colosseum: now has tecnology "Nobility"
+* *Hero: less expensive (1000) and more health (1200)*
+* *Colosseum: now has tecnology "Nobility"*
 * *Tribune: improved stats (def: 16)*
 
 ### Rome (both)
 
 * *Princeps: improved skills (atk: 20, health: 320)*
-* *Hero: changed skill (Rush/Aggressione/Acometida instead of Discipline/Erudizione/Veteranía, that's a bugged skill).*
+* *Hero: changed skill (Rush/Aggressione/Acometida instead of Epic endurance and Discipline/Erudizione/Veteranía, that's a bugged skill).*
 
 ### Egypt
 
