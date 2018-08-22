@@ -1,4 +1,4 @@
-# What's new?
+﻿# What's new?
 
 All the changes are listed below.
 
@@ -14,6 +14,8 @@ All the changes are listed below.
 * Ship bug that allowed you to move an allied ship without shared control
 * Units can't now destroy own catapults
 * Units can't now destroy allied catapults and allied buildings
+* AI units without hero sometimes can't conquer enemy buildings
+* Units stop now after "Detach" command and "Leave Army" command.
 
 ### GRAPHICAL MODIFICATIONS
 
@@ -75,4 +77,3 @@ All the changes are listed below.
 * Improved 'Parry' mode (Contenimento / Contencion) system
 * Improved AI system
 * Improved units boarding system
-* Deleted the skill section from animals' interface
