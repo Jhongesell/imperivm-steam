@@ -1,4 +1,7 @@
 ﻿<translationtable>
+<!-- kills, deaths, KD ratio-->
+<translationtableentry text="Kills: %s1" justtext="Kills: %s1" context="" result="Uccisioni: %s1" comment="post-game statistics screen"/>
+<translationtableentry text="Deaths: %s1" justtext="Deaths: %s1" context="" result="Morti: %s1" comment="post-game statistics screen"/>
 <!-- Incursore teutonico --> 
 <translationtableentry text="Teuton Wolf@/Editor/combo/uniticons.ini:FillCombo:Teuton Wolf " justtext="Teuton Wolf" context="/Editor/combo/uniticons.ini:FillCombo:Teuton Wolf " result="Incursore teutonico" comment=""/>
 <translationtableentry text="Teuton Wolf@TTeutonWolf class name" justtext="Teuton Wolf" context="TTeutonWolf class name" result="Incursore teutonico" comment=""/>
