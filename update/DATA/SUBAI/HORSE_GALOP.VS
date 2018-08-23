@@ -3,9 +3,16 @@
 Unit this;
 this = This.AsUnit();
 
-if (.IsValid) // leave parry mode at new command
- .SetParryMode(false);
+if(.IsValid() == false)
+{
+	return;
+}
+if(.player() < 14)
+{
+	return;
+}
+
 .SetSpeedFactor(150);
 .SetWalkAnim(2);
 
-while (!.Goto(pt, 0, 2000, true, 0));
+while( (!.Goto(pt, 0, 2000, true, 0)) && (.command() != "enter") );

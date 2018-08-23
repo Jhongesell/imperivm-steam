@@ -8,4 +8,4 @@ if (.IsValid) // leave parry mode at new command
 .SetSpeedFactor(150);
 .SetWalkAnim(2);
 
-while (!.Goto(pt, 0, 50, true, 0));
+while ( (!.Goto(pt, 0, 50, true, 0)) && (.command() != "enter") );

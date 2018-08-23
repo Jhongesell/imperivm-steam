@@ -119,3 +119,55 @@ else if( u.IsHeirOf("Wagon") )
 		}
 	}
 }
+else if(u.IsHeirOf("WildHorse") == true) 
+{
+	Unit wildHorse;
+	wildHorse = u.AsUnit();
+	
+	//Per poter catturare un cavallo è necessario aver sbloccato la tecnologia "Tame horses" da ITavern.
+	if(EnvReadString(.player(), "Tame horses") != "researched")
+	{
+		Sleep(100);
+		return;
+	}
+	
+	while(wildHorse.IsAlive() == true)
+	{
+		if(.Goto(wildHorse, 150, 5000, true, 2500))
+		{
+			if(wildHorse.IsAlive() == false) 
+				return;
+			if(.player() == wildHorse.player()) 
+				return;
+			// units can't capture allied units
+			if(wildHorse.IsEnemy(this) == false)
+			if(.IsEnemy(wildHorse) == false)
+			{
+				return;
+			}
+			if(.IsEnemy(wildHorse) == true || wildHorse.IsEnemy(this) == true)
+				UserNotification("unit attacked", "", wildHorse.pos(), wildHorse.player());
+			if(.IsVisible() == false)
+			{
+				.SetVisible(true);
+			}
+			if(.HasSpecial(sneak) == true) 
+			{
+				.SetLastAttackTime(); // mountaineer patch
+			}
+			.Face(wildHorse.pos());
+			.Taunt(2000);
+			
+			wildHorse.SetPlayer(.player());
+			if(.IsAlive() == true)
+			{
+				wildHorse.SetCommand("move", .pos());
+			}
+			else
+			{
+				wildHorse.SetCommand("idle");
+			}
+			return;
+		}
+	}
+}

@@ -18,8 +18,20 @@
 	<method sig="galop" vs="data/subai/horse_galop.vs"/>
 	<method sig="trot" vs="data/subai/horse_trot.vs"/>
 	<method sig="unitmove" vs="data/subai/unit_move.vs"/>
- 
+	<method sig="enter"         vs="data/subai/horse_enter.vs" verify="data/subai/horse_enter_verify.vs"/>
+	<method sig="enteralone"    vs="data/subai/horse_enter.vs" verify="data/subai/horse_enter_verify.vs"/>
+	
 	<sounds command="Sounds/animals/WHorse/Horse_command.wav"/>
-	<sounds die="Sounds/animals/WHorse/Horse_die.wav"/>   
+	<sounds die="Sounds/animals/WHorse/Horse_die.wav"/>  
 
+	<value0
+		icon="gameres/infobar/common/Loyality.bmp"
+		script="return 1;"
+		flags="-1"
+		help="/contents/capturing"
+		rollover = "Loyalty"/>
+
+	<defaultcmd target="IVillage">
+		<cmd name="enter"/>
+	</defaultcmd>
 </class>

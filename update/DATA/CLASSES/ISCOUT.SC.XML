@@ -1,13 +1,16 @@
 <class id="IScout" cpp_class="CVXUnit" parent="Horse" entity="Units/IScout/IScout.ent.xml">
 
 	<properties race="Iberia"/>
-	<properties maxhealth="240"/>
-	<properties damage="0" armor_slash="8" armor_pierce="8"/>
+	<properties damage_type="none"/>
+	<properties damage="0"/>
+	<properties maxhealth="250"/>
+	<properties damage="0"/>
+	<properties armor_slash="10" armor_pierce="10"/>
 	<properties speed="175"/>
     <properties unit_specials="Freedom, Keen sight"/>
 	<properties healthbar_type="3"/>
 
-	<properties icon="gameres/icons/ICavalry.bmp"/>
+	<properties icon="gameres/icons/IScout.bmp"/>
 	<properties display_name="Scout" display_name_plural="Scout"/>
 	<properties help="contents/units/ICavalry"/>
 	<properties edittree_pos="Units/Iberia/Scout"/>
