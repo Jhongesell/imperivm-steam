@@ -27,6 +27,9 @@ if(set.IsValid() == false)
 	return;
 }
 
+.SetSpeedFactor(150);
+.SetWalkAnim(2);
+
 .SetEntering(true);																
 if(set.Units().Contains(this) == false)
 {

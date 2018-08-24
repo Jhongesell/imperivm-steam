@@ -53,7 +53,7 @@ while(!.Goto(pt, 0, 2000, true, 0)&& .HasPath)
 		ptCenter = .pos + ptCenter;
 		.SetWalkAnim(2);
 		.SetSpeedFactor(150);
-		.AddCommand(true, "galop", .ClipDestToMap(ptCenter));
+		.AddCommand(true, "move", .ClipDestToMap(ptCenter));
 		return;
 	}
 };
@@ -104,7 +104,7 @@ while(!.Goto(pt, 0, 2000, true, 0) && .HasPath);
 		ptCenter = .pos + ptCenter;
 		.SetWalkAnim(2);
 		.SetSpeedFactor(150);
-		.AddCommand(true, "galop", .ClipDestToMap(ptCenter));
+		.AddCommand(true, "move", .ClipDestToMap(ptCenter));
 		return;
 	}
 }

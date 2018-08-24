@@ -7,10 +7,6 @@ if(.IsValid() == false)
 {
 	return;
 }
-if(.player() < 14)
-{
-	return;
-}
 
 .SetSpeedFactor(150);
 .SetWalkAnim(2);

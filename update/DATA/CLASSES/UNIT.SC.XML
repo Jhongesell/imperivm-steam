@@ -138,12 +138,16 @@
 	<defaultcmd target="Wagon">
 		<cmd name="capture"/>
 	</defaultcmd>
-
+	
 	<defaultcmd target="Unit">
 		<cmd name="attack"/>
 		<cmd name="stay_hidden"/>
 		<cmd name="approach"/>
 		<cmd name="attack_unit_type" ctrl="1"/>
+	</defaultcmd>
+	
+	<defaultcmd target="WildHorse">
+		<cmd name="capture"/>
 	</defaultcmd>
 
 	<defaultcmd target="Hero">

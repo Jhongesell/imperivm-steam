@@ -167,6 +167,8 @@ else if(u.IsHeirOf("WildHorse") == true)
 			{
 				wildHorse.SetCommand("idle");
 			}
+			UserNotification("horse captured", "", wildHorse.pos(), wildHorse.player());
+			Sleep(100);
 			return;
 		}
 	}

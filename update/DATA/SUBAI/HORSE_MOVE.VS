@@ -3,9 +3,22 @@
 Unit this;
 this = This.AsUnit();
 
-if (.IsValid) // leave parry mode at new command
- .SetParryMode(false);
+if(.IsValid() == false)
+	return;
+
+if(.IsValid() == true) // leave parry mode at new command
+	.SetParryMode(false);
+	
 .SetSpeedFactor(150);
 .SetWalkAnim(2);
 
-while ( (!.Goto(pt, 0, 50, true, 0)) && (.command() != "enter") );
+if(.player() >= 13)
+{
+	.SetCommand("trot", pt);
+}
+else
+{
+	.SetCommand("galop", pt);
+}
+
+//while ( (!.Goto(pt, 0, 50, true, 0)) && (.command() != "enter") );
