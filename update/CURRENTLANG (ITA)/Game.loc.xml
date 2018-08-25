@@ -1,4 +1,15 @@
 <translationtable>
+<!-- esploratore -->
+<translationtableentry text="Scout@IScout class name" justtext="Scout" context="IScout class name" result="Esploratore" comment=""/>
+<translationtableentry text="Scouts@IScout class name plural" justtext="Scouts" context="IScout class name plural" result="Esploratori" comment=""/>
+<translationtableentry text="Scout@editortree/Units/Iberia" justtext="Scout" context="" result="Esploratore" comment="editortree"/>
+<translationtableentry text="Call scout@callIScout" justtext="Call scout" context="callIScout" result="Equipaggia esploratore" comment="Rollover for command callIScout"/>
+<translationtableentry text="Call 1 scout@callIScout" justtext="Call 1 scout" context="callIScout" result="Equipaggia un esploratore" comment="Description for command callIScout"/>
+<translationtableentry text="Tame horses@TameHorses" justtext="Tame horses" context="TameHorses" result="Doma cavalli" comment="Rollover for command TameHorses"/>
+<translationtableentry text="Allows you to capture horses that can be used to train scouts in iberian village@TameHorses" justtext="Allows you to capture horses that can be used to train scouts in iberian village" context="TameHorses" result="Permette la cattura di cavalli che possono essere usati per reclutare Esploratori nei villaggi di tipo iberico" comment="Description of command TameHorses"/>
+<!-- posto di guardia -->
+<translationtableentry text="Guard Post@GGuardPost class name" justtext="Guard Post" context="GGuardPost class name" result="Posto di guardia" comment=""/>
+<translationtableentry text="Guard post reveals the presence of enemies nearby" justtext="Guard post reveals the presence of enemies nearby" context="" result="Il Posto di guardia ha captato la presenza di nemici" comment=""/>
 <!-- contacts -->
 <translationtableentry text="Contacts@/Menu/mainmenu.ini:Contacts:Text" justtext="Contacts" context="/Menu/mainmenu.ini:Contacts:Text" result="Contatti" comment=""/>
 <!-- kills, deaths, KD ratio-->
@@ -23,6 +34,7 @@
 <translationtableentry text="Village (Germany)@editortree/Structures" justtext="Village (Germany)" context="" result="Villaggio germanico" comment="editortree"/>
 <translationtableentry text="German walls" justtext="German walls" context="" result="Mura germaniche" comment="Editor place tool"/>
 <translationtableentry text="Stronghold (Republican Rome)@editortree/Structures" justtext="Stronghold (Republican Rome)" context="" result="Fortezza della Roma Repubblicana" comment="editortree"/>
+<translationtableentry text="Republican Roman Townhall@RTownhall class name" justtext="Republican Roman Townhall" context="RTownhall class name" result="Foro della Roma repubblicana" comment=""/>
 <translationtableentry text="Republican Rome@/Menu/ob_profile.ini:T1Race2:Text" justtext="Republican Rome" context="/Menu/ob_profile.ini:T1Race2:Text" result="Roma repubblicana" comment=""/>
 <translationtableentry text="Republican Rome@race" justtext="Republican Rome" context="race" result="Roma repubblicana" comment=""/>
 <translationtableentry text="Republican Roman walls" justtext="Republican Roman walls" context="" result="Mura della Roma repubblicana" comment="Editor place tool"/>

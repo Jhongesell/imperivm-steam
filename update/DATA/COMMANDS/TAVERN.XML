@@ -508,14 +508,14 @@
 	<src obj="EMarket"/>
 </cmd>
 
-<cmd name="Tame horses" priority="13"
+<cmd name="TameHorses" priority="13"
 	queueicon="gameres/icons/upgrades/Capture Horses.bmp"
 	groupverifier="data/subai/verify_research.vs"
 	button="research/Capture Horses.bmp"
 	key="t"
-	costgold="2500"
+	costgold="1000"
 	rollover="Tame horses"
-	execdelay="40000"
+	execdelay="20000"
 	description="Allows you to capture horses that can be used to train scouts in iberian village"
 	method="research"
 	param="ReqSet, Free Drinks, default, NamePlr, Tame horses, default">

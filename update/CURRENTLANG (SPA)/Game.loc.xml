@@ -1,4 +1,15 @@
 <translationtable>
+<!-- esploratore -->
+<translationtableentry text="Scout@IScout class name" justtext="Scout" context="IScout class name" result="Explorador" comment=""/>
+<translationtableentry text="Scouts@IScout class name plural" justtext="Scouts" context="IScout class name plural" result="Exploradores" comment=""/>
+<translationtableentry text="Scout@editortree/Units/Iberia" justtext="Scout" context="" result="Explorador" comment="editortree"/>
+<translationtableentry text="Call scout@callIScout" justtext="Call scout" context="callIScout" result="Equipar explorador" comment="Rollover for command callIScout"/>
+<translationtableentry text="Call 1 scout@callIScout" justtext="Call 1 scout" context="callIScout" result="Equipar explorador" comment="Description for command callIScout"/>
+<translationtableentry text="Tame horses@TameHorses" justtext="Tame horses" context="TameHorses" result="Domar caballos" comment="Rollover for command TameHorses"/>
+<translationtableentry text="Allows you to capture horses that can be used to train scouts in iberian village@TameHorses" justtext="Allows you to capture horses that can be used to train scouts in iberian village" context="TameHorses" result="Permite de capturar caballos que se pueden usar para entrenar exploradores en el las aldeas ibéricas" comment="Description of command TameHorses"/>
+<!-- posto di guardia -->
+<translationtableentry text="Guard Post@GGuardPost class name" justtext="Guard Post" context="GGuardPost class name" result="Puesto de guardia" comment=""/>
+<translationtableentry text="Guard post reveals the presence of enemies nearby" justtext="Guard post reveals the presence of enemies nearby" context="" result="El puesto de guardia revela la presencia de enemigos cercanos" comment=""/>
 <!-- contacts -->
 <translationtableentry text="Contacts@/Menu/mainmenu.ini:Contacts:Text" justtext="Contacts" context="/Menu/mainmenu.ini:Contacts:Text" result="Contactos" comment=""/>
 <!-- kills, deaths, KD ratio-->
