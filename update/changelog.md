@@ -24,7 +24,8 @@ All the changes are listed below.
 
 ### NEW UNITS/DECORATIONS/BUILDINGS
 
-* Added the **Teuton Wolf** unit (only available in the Editor)
+* Added the **Teuton Wolf** unit 
+* Added the **Guard Post** building 
 
 ### BALANCE TO CIVILIZATIONS
 
@@ -69,6 +70,10 @@ All the changes are listed below.
 ### Germany
 
 * Teuton Wolf: only available at Teuton Tents (atk 30, def 10, health 300, abilities: Attack skill, Toughness)
+
+### Gaul
+
+* Archer: improved stats (atk: 10)
 
 ### OTHER EDITS
 

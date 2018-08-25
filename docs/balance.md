@@ -37,6 +37,10 @@ Remember that **we don't want to upset the game: to do that, you can look for mo
 * *Princeps: improved skills (atk: 20, health: 320)*
 * *Hero: changed skill (Rush/Aggressione/Acometida instead of Epic endurance and Discipline/Erudizione/Veteranía, that's a bugged skill).*
 
+### Gaul
+
+* Archer: improved stats (atk: 10)
+
 ### Egypt
 
 * *"Path of the dead" doesn't work with Sentinels and Catapults.*
@@ -45,7 +49,7 @@ Remember that **we don't want to upset the game: to do that, you can look for mo
 
 * *Horseman: a little more speed*
 * *Slinger / Fromboliere / Hondero: same speed as Egyptian Archers*
-* New tecnology to reveal hidden units : work in progress ;)
+* New tecnology to reveal hidden units
 
 ### Germany
 
