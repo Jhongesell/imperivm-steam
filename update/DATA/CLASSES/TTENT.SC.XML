@@ -28,7 +28,7 @@
 		settlement_food="0"
 		settlement_gold="0"
 		settlement_maxfood="100000000"
-		settlement_maxgold="100000000"
+		settlement_maxgold="0"
 		population="0"
 		efficiency="1"
 		max_population="0"

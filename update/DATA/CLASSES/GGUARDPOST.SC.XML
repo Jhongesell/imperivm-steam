@@ -34,20 +34,4 @@
 		<cmd name="unitsout"/>
 	</defaultcmd>
 
-	<defaultcmd target="BaseTownhall">
-		<cmd name="tribute"/>
-	</defaultcmd>
-
-	<defaultcmd target="BaseVillage">
-		<cmd name="tribute"/>
-	</defaultcmd>
-
-	<defaultcmd target="Outpost">
-		<cmd name="tribute"/>
-	</defaultcmd>
-
-	<defaultcmd target="BaseShipyard">
-		<cmd name="tribute"/>
-	</defaultcmd>
-
 </class>
