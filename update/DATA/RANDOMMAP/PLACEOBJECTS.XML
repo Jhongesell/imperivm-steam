@@ -16,6 +16,7 @@
   <ifdef id="outposts">    <GameObj class="EOutpost"      min="1" max="1" inf-max="10" inf="100" benefit="20" mindist="1500" fade="7"/> </ifdef>
   <ifdef id="outposts">    <GameObj class="TOutpost"      min="1" max="1" inf-max="10" inf="100" benefit="20" mindist="1500" fade="7"/> </ifdef>
   <ifdef id="outposts">    <GameObj class="BOutpost"      min="1" max="1" inf-max="10" inf="100" benefit="20" mindist="1500" fade="7"/> </ifdef>
+  <ifdef id="outposts">    <GameObj class="GGuardPost"    min="1" max="1" inf-max="10" inf="100" benefit="20" mindist="1500" fade="7"/> </ifdef>
  
   <ifdef id="stonehenge">  <GameObj class="stonehenge"    min="0" max="0" inf-max="13" inf="30" mindist="4000" fade="3"/> </ifdef>
   <ifdef id="teutontents"> <GameObj class="TTent"         min="1" max="1" inf-max="13" inf="60" benefit="30" mindist="4000" fade="4"/> </ifdef>
@@ -460,7 +461,8 @@
   <ifdef id="outposts">    <GameObj class="EOutpost"      min="2" max="3" inf-max="9" inf="40" benefit="20" mindist="3000" fade="2"/> </ifdef>
   <ifdef id="outposts">    <GameObj class="TOutpost"      min="2" max="3" inf-max="9" inf="40" benefit="20" mindist="3000" fade="2"/> </ifdef>
   <ifdef id="outposts">    <GameObj class="BOutpost"      min="2" max="3" inf-max="9" inf="40" benefit="20" mindist="3000" fade="2"/> </ifdef>
-
+  <ifdef id="outposts">    <GameObj class="GGuardPost"    min="2" max="3" inf-max="9" inf="50" benefit="20" mindist="3000" fade="2"/> </ifdef>
+  
 	<ifdef id="stonehenge">  
 		<GameObj class="Stonehenge2"   min="1" max="1" inf-max="13" inf="30" fade="2"> 
 			<RaceAlternative race="Gaul" class="Stonehenge2"/>
@@ -930,7 +932,8 @@
   <ifdef id="outposts">    <GameObj class="EOutpost"      min="4" max="6" inf-max="12" inf="30" benefit="20" mindist="3000"/> </ifdef>
   <ifdef id="outposts">    <GameObj class="TOutpost"      min="4" max="6" inf-max="12" inf="30" benefit="20" mindist="3000"/> </ifdef>
   <ifdef id="outposts">    <GameObj class="BOutpost"      min="4" max="6" inf-max="12" inf="30" benefit="20" mindist="3000"/> </ifdef>
-
+  <ifdef id="outposts">    <GameObj class="GGuardPost"    min="4" max="8" inf-max="12" inf="30" benefit="20" mindist="3000"/> </ifdef>
+  
   <ifdef id="itemholders">
     <GameObj class="Area::SandBoulder" min="3" max="9" inf-max="12" inf="33" fade="2">
       <RaceAlternative race="Gaul" class="Area::"/>

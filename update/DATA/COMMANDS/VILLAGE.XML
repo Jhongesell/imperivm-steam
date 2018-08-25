@@ -16,6 +16,19 @@
 	<src obj="BaseVillage"/>
 </cmd>
 
+<cmd name="repair guard post" priority="1"
+	method="repair"
+	button="actions/repair.bmp"
+	key="r"
+	queueicon="gameres/icons/upgrades/repair.bmp"
+	groupverifier="data/subai/verify_cmdcost_building.vs"
+	rollover="Repair"
+	costgold = "500"
+	costfood = "0"
+	execdelay = "60000">
+	<src obj="GGuardPost"/>
+</cmd>
+
 <cmd name="tribute" priority="2"
 	immediate="yes"
 	button="states/tribute.bmp"
@@ -39,6 +52,7 @@
 	<src obj="BaseVillage"/>
 	<src obj="Outpost"/>
 	<src obj="BaseShipyard"/>
+	<nsrc obj="GGuardPost"/>
 </cmd>
 
 <cmd name="tribute_default" priority="2" immediate="yes"
@@ -59,6 +73,7 @@
 	<src obj="BaseVillage"/>
 	<src obj="Outpost"/>
 	<src obj="BaseShipyard"/>
+	<nsrc obj="GGuardPost"/>
 </cmd>
 
 <cmd name="stoptribute" priority="2"
@@ -71,6 +86,7 @@
 	<src obj="BaseVillage"/>
 	<src obj="Outpost"/>
 	<src obj="BaseShipyard"/>
+	<nsrc obj="GGuardPost"/>
 </cmd>
 
 <cmd name="buyfoodforgold" priority="6"
@@ -243,6 +259,7 @@
 	<src obj="BaseTownhall"/>
 	<src obj="Outpost"/>
 	<src obj="BaseShipyard"/>
+	<nsrc obj="GGuardPost"/>
 </cmd>
 
 <cmd name="createfoodmule2" priority="6"
@@ -260,6 +277,7 @@
 	<src obj="BaseTownhall"/>
 	<src obj="Outpost"/>
 	<src obj="BaseShipyard"/>
+	<nsrc obj="GGuardPost"/>
 </cmd>
 
 <cmd name="creategoldmule1" priority="6"
