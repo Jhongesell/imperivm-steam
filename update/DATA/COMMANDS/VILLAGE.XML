@@ -43,6 +43,9 @@
 	<cmdtext target="TTent"
 		text="Click on this Teuton Tent to start sending resources"
 		default-text=""/>
+	<cmdtext target="GGuardPost"
+		text=""
+		default-text=""/>
 	<cmdtext target="Outpost"
 		text="Click on this Outpost to start sending resources"
 		default-text=""/>
@@ -50,17 +53,21 @@
 		text="Click on this Village to start sending resources"
 		default-text=""/>
 	<src obj="BaseVillage"/>
+	<nsrc obj="GGuardPost"/>
 	<src obj="Outpost"/>
 	<src obj="BaseShipyard"/>
-	<nsrc obj="GGuardPost"/>
 </cmd>
 
-<cmd name="tribute_default" priority="2" immediate="yes"
+<cmd name="tribute_default" priority="2" 
+	immediate="yes"
 	cursor="do_something">
-
+	
 	<cmdtext target="BaseTownhall"
 		text=""
 		default-text="Right-click on this Townhall to start sending resources"/>
+	<cmdtext target="GGuardPost"
+		text=""
+		default-text=""/>
 	<cmdtext target="Outpost"
 		text=""
 		default-text="Right-click on this Outpost to start sending resources"/>
@@ -71,9 +78,9 @@
 		text=""
 		default-text="Right-click on this Teuton Tent to start sending resources"/>
 	<src obj="BaseVillage"/>
+	<nsrc obj="GGuardPost"/>
 	<src obj="Outpost"/>
 	<src obj="BaseShipyard"/>
-	<nsrc obj="GGuardPost"/>
 </cmd>
 
 <cmd name="stoptribute" priority="2"
@@ -84,9 +91,9 @@
 	rollover="Supply"
 	description = "Stop sending resources">
 	<src obj="BaseVillage"/>
+	<nsrc obj="GGuardPost"/>
 	<src obj="Outpost"/>
 	<src obj="BaseShipyard"/>
-	<nsrc obj="GGuardPost"/>
 </cmd>
 
 <cmd name="buyfoodforgold" priority="6"
