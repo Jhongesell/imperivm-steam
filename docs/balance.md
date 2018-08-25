@@ -39,7 +39,7 @@ Remember that **we don't want to upset the game: to do that, you can look for mo
 
 ### Gaul
 
-* Archer: improved stats (atk: 10)
+* *Archer: improved stats (atk: 10)*
 
 ### Egypt
 
