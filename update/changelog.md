@@ -2,6 +2,10 @@
 
 All the changes are listed below.
 
+### LAUNCHER
+
+* Restyled graphic and some new functionalities
+
 ### BUGS FIXED
 
 * Black Catapult 
@@ -19,13 +23,14 @@ All the changes are listed below.
 
 ### GRAPHICAL MODIFICATIONS
 
-* Added some screen resolutions
+* **Now you can play with *every* screen resolution; menu and other pages are in the same resolution too**
 * Added the Kills, Deaths and K/D counts during the game
 
 ### NEW UNITS/DECORATIONS/BUILDINGS
 
 * Added the **Teuton Wolf** unit 
 * Added the **Guard Post** building 
+* Added the **Wild Horse** unit
 
 ### BALANCE TO CIVILIZATIONS
 
@@ -55,6 +60,7 @@ All the changes are listed below.
 
 * Horseman: a little more speed
 * Slinger / Fromboliere / Hondero: same speed as Egyptian Archers 
+* Iberia has now the possibility to reveal hidden units (new command in the Tavern).
 
 ### Republican Rome
 

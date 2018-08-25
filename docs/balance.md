@@ -49,7 +49,7 @@ Remember that **we don't want to upset the game: to do that, you can look for mo
 
 * *Horseman: a little more speed*
 * *Slinger / Fromboliere / Hondero: same speed as Egyptian Archers*
-* New tecnology to reveal hidden units
+* *Iberia has now the possibility to reveal hidden units (new command in the Tavern)*
 
 ### Germany
 
