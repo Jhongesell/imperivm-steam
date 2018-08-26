@@ -154,12 +154,12 @@
 	key="g"
 	groupverifier="data/subai/verify_research.vs"
 	button="research/gambling.bmp"
-	costgold="2000"
+	costgold="2500"
 	execdelay="30000"
 	researchcommand="yes"
 	method="research"
 	param="NameSet, Gambling, default"
-	description="Allows you to win 5000 or lose your investment (20% chance)"
+	description="Gives you 50% of chances to get 2500 of food and explores a large area around the stronghold"
 	rollover="Gambling"
 	>
 	<src obj="BTavern"/>

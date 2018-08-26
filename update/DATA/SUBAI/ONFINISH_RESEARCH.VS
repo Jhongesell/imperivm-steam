@@ -173,14 +173,16 @@ while(dest != "")
 		name = ParseStr(dest, dest);
 		value = ParseStr(dest, dest);
 		EnvWriteString(.settlement, name, "researched");
-		if (name == "Gambling"){	// Gambling implementation
-            int chance;
-			chance = GetConst("GamblingChance");
-			if (rand(100) < chance)
-			  {
-				.settlement.SetGold(.settlement.gold+5000);
-				.settlement.GoldConverted(5000);
-			  }
+		if(name == "Gambling")
+		{	// Gambling implementation
+            int CHANCE;
+			CHANCE = GetConst("GamblingChance");
+			if(rand(100) < CHANCE)
+			{
+				.settlement().SetFood(.settlement().food() + 2500); //Get 2500 of food.
+				ExploreCircle(.player(), .pos(), 6000); //Explore a large area around stronghold.
+				//.settlement.GoldConverted(5000);
+			}
 		}
 		else if (name == "Fights" && .race==Germany) {// Fights, Germany implementation
 			.settlement.SetFood(.settlement.food + 2000);
