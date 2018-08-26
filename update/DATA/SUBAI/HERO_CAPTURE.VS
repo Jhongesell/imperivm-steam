@@ -22,7 +22,8 @@ if (b.IsValid)
 		if (b.settlement.IsIndependent())
 			return;
 
-	if (!b.IsEnemy(this))
+	// units can't capture allied settlements until allied player is not been eliminated
+	if( (DiplAreAllied(.player, b.player) == true) && (EnvReadInt(b.player, "elimination") == 0) ) 
 		return;
 
 	if (.player == u.player)
@@ -50,7 +51,9 @@ if (b.IsValid)
 		if (.Goto(u, 250, 5000, true, 2500))
 		{
 			if(.player == b.player) return;
-			// units can't capture allied settlements
+			// units can't capture allied settlements until allied player is not been eliminated
+			if( (DiplAreAllied(.player, b.player) == true) && (EnvReadInt(b.player, "elimination") == 0) ) 
+				return;
 			bEnemy = .IsEnemy(u);
 			if (!bEnemy)
 			if (!u.IsEnemy(this))
@@ -99,6 +102,7 @@ else if( u.IsHeirOf("Wagon") )
 			if (!u.IsEnemy(me))
 			if (!me.IsEnemy(u))
 			{
+				w.SetPlayer(.player);
 				return;
 			}
 			if (w.loyalty==0) {
@@ -139,10 +143,13 @@ else if(u.IsHeirOf("WildHorse") == true)
 				return;
 			if(.player() == wildHorse.player()) 
 				return;
-			// units can't capture allied units
+			// units can't capture allied settlements until allied player is not been eliminated
+			if( (DiplAreAllied(.player, b.player) == true) && (EnvReadInt(b.player, "elimination") == 0) ) 
+				return;
 			if(wildHorse.IsEnemy(this) == false)
 			if(.IsEnemy(wildHorse) == false)
 			{
+				wildHorse.SetPlayer(.player);
 				return;
 			}
 			if(.IsEnemy(wildHorse) == true || wildHorse.IsEnemy(this) == true)
