@@ -48,12 +48,14 @@ while (1)
 	nRemainingTime = nTimeLimit - nTime;
 	if (nTimeout == 0) 
 	{
+		/* //PLAYER BUILDINGS BECAME NEUTRALS WHEN PLAYER IS BEEN ELIMINATED: 
 		ClassPlayerObjs("Building", player).AddToGroup("Player" + player + "BuildingTransfer");
 		ClassPlayerObjs("Stonehenge", player).RemoveFromGroup("Player" + player + "BuildingTransfer");
 		ClassPlayerObjs("BaseRuins", player).RemoveFromGroup("Player" + player + "BuildingTransfer");
 		ClassPlayerObjs("Teleport", player).RemoveFromGroup("Player" + player + "BuildingTransfer");
 		Group("Player" + player + "BuildingTransfer").SetPlayer(15);
 		Group("Player" + player + "BuildingTransfer").RemoveFromGroup("Player" + player + "BuildingTransfer");
+		*/
 		
 		SetPlayerStatus(player, 1, Translate("You were eliminated"), true);
 		EnvWriteInt(player, "elimination", 1);
@@ -119,13 +121,15 @@ while (1)
 				} 
 				else 
 				{
+					/* //PLAYER BUILDINGS BECAME NEUTRALS WHEN PLAYER IS BEEN ELIMINATED: 
 					ClassPlayerObjs("Building", player).AddToGroup("Player" + player + "BuildingTransfer");
 					ClassPlayerObjs("Stonehenge", player).RemoveFromGroup("Player" + player + "BuildingTransfer");
 					ClassPlayerObjs("BaseRuins", player).RemoveFromGroup("Player" + player + "BuildingTransfer");
 					ClassPlayerObjs("Teleport", player).RemoveFromGroup("Player" + player + "BuildingTransfer");
 					Group("Player" + player + "BuildingTransfer").SetPlayer(15);
 					Group("Player" + player + "BuildingTransfer").RemoveFromGroup("Player" + player + "BuildingTransfer");
-		
+					*/
+					
 					SetPlayerStatus(player, 1, Translate("You lose" ), true);
 					EnvWriteInt(player, "elimination", 1);
 					EndGame(player, true); //true = lose
@@ -175,13 +179,15 @@ while (1)
 			} 
 			else 
 			{
+				/* //PLAYER BUILDINGS BECAME NEUTRALS WHEN PLAYER IS BEEN ELIMINATED: 
 				ClassPlayerObjs("Building", player).AddToGroup("Player" + player + "BuildingTransfer");
 				ClassPlayerObjs("Stonehenge", player).RemoveFromGroup("Player" + player + "BuildingTransfer");
 				ClassPlayerObjs("BaseRuins", player).RemoveFromGroup("Player" + player + "BuildingTransfer");
 				ClassPlayerObjs("Teleport", player).RemoveFromGroup("Player" + player + "BuildingTransfer");
 				Group("Player" + player + "BuildingTransfer").SetPlayer(15);
 				Group("Player" + player + "BuildingTransfer").RemoveFromGroup("Player" + player + "BuildingTransfer");
-		
+				*/
+				
 				SetPlayerStatus(player, 1, Translate("You lose" ), true);
 				EnvWriteInt(player, "elimination", 1);
 				EndGame(player, true); //true = lose
@@ -192,13 +198,15 @@ while (1)
 		{
 			if (MilUnits(player)==0) 
 			{
+				/* //PLAYER BUILDINGS BECAME NEUTRALS WHEN PLAYER IS BEEN ELIMINATED: 
 				ClassPlayerObjs("Building", player).AddToGroup("Player" + player + "BuildingTransfer");
 				ClassPlayerObjs("Stonehenge", player).RemoveFromGroup("Player" + player + "BuildingTransfer");
 				ClassPlayerObjs("BaseRuins", player).RemoveFromGroup("Player" + player + "BuildingTransfer");
 				ClassPlayerObjs("Teleport", player).RemoveFromGroup("Player" + player + "BuildingTransfer");
 				Group("Player" + player + "BuildingTransfer").SetPlayer(15);
 				Group("Player" + player + "BuildingTransfer").RemoveFromGroup("Player" + player + "BuildingTransfer");
-		
+				*/
+				
 				SetPlayerStatus(player, 1, Translate("You were eliminated" ), true);
 				EnvWriteInt(player, "elimination", 1);
 				EndGame(player, true); //true = lose
@@ -239,13 +247,15 @@ while (1)
 		{
 			if (MilUnits(player)==0) 
 			{
+				/* //PLAYER BUILDINGS BECAME NEUTRALS WHEN PLAYER IS BEEN ELIMINATED: 
 				ClassPlayerObjs("Building", player).AddToGroup("Player" + player + "BuildingTransfer");
 				ClassPlayerObjs("Stonehenge", player).RemoveFromGroup("Player" + player + "BuildingTransfer");
 				ClassPlayerObjs("BaseRuins", player).RemoveFromGroup("Player" + player + "BuildingTransfer");
 				ClassPlayerObjs("Teleport", player).RemoveFromGroup("Player" + player + "BuildingTransfer");
 				Group("Player" + player + "BuildingTransfer").SetPlayer(15);
 				Group("Player" + player + "BuildingTransfer").RemoveFromGroup("Player" + player + "BuildingTransfer");
-			
+				*/
+				
 				SetPlayerStatus(player, 1, Translate("You were eliminated" ), true);
 				EnvWriteInt(player, "elimination", 1);
 				EndGame(player, true); //true = lose
