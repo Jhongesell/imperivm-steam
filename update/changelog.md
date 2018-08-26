@@ -39,6 +39,7 @@ All the changes are listed below.
 * Same speed for every Archer (same as Egyptian Archer)
 
 ### Britain:
+* In the Tavern, the 'Gambling' tecnology (Intercessione divina / Favor de los dioses) now gives you 50% of chances to get 2500 of **food** and explores a lot the map around the Townhall (Foro).
 * Units can obtain the Shield/Sword of Nobility at level 12 now
 * Hero: improved stats (defense: 18)
 * Wolfs have now Keen sight (Vista di lince / vista de lince)
