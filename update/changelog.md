@@ -22,6 +22,7 @@ All the changes are listed below.
 * Units can't now destroy allied catapults and allied buildings
 * AI units without hero sometimes can't conquer enemy buildings
 * Units stop now after "Detach" command and "Leave Army" command.
+* Units can't now capture allied settlements until allied player is not been eliminated
 
 ### GRAPHICAL MODIFICATIONS
 
