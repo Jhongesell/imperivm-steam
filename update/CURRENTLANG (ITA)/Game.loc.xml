@@ -7,6 +7,10 @@
 <translationtableentry text="Call 1 scout@callIScout" justtext="Call 1 scout" context="callIScout" result="Equipaggia un esploratore" comment="Description for command callIScout"/>
 <translationtableentry text="Tame horses@TameHorses" justtext="Tame horses" context="TameHorses" result="Doma cavalli" comment="Rollover for command TameHorses"/>
 <translationtableentry text="Allows you to capture horses that can be used to train scouts in iberian village@TameHorses" justtext="Allows you to capture horses that can be used to train scouts in iberian village" context="TameHorses" result="Permette la cattura di cavalli che possono essere usati per reclutare Esploratori nei villaggi di tipo iberico" comment="Description of command TameHorses"/>
+<translationtableentry text="Horse captured" justtext="Horse captured" context="" result="Cavallo catturato" comment=""/>
+<translationtableentry text="Requires Tame horses" justtext="Requires Tame horses" context="" result="Richiede Doma cavalli" comment=""/>
+<translationtableentry text="Horses" justtext="Horses" context="" result="Cavalli" comment=""/>
+<translationtableentry text="Requires one horse in the village" justtext="Requires one horse in the village" context="" result="Richiede un cavallo nel villaggio" comment=""/>
 <!-- posto di guardia -->
 <translationtableentry text="Guard Post@GGuardPost class name" justtext="Guard Post" context="GGuardPost class name" result="Posto di guardia" comment=""/>
 <translationtableentry text="Guard post reveals the presence of enemies nearby" justtext="Guard post reveals the presence of enemies nearby" context="" result="Il Posto di guardia ha captato la presenza di nemici" comment=""/>
