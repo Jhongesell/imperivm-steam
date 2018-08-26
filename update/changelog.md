@@ -86,6 +86,9 @@ All the changes are listed below.
 
 * Archer: improved stats (atk: 10)
 
+### All Races
+* Ship: can now board 120 units
+
 ### OTHER EDITS
 
 * When you have a Teuton Tent and you put food inside it, now you can store it and decide when and what unit obtain. (price(food): 400 for Teuton Archers and Riders, 500 for Teuton Wolfs).
@@ -93,3 +96,4 @@ All the changes are listed below.
 * Improved 'Parry' mode (Contenimento / Contencion) system
 * Improved AI system
 * Improved units boarding system
+* New main menu soundtrack
