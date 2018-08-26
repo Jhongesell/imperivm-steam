@@ -4,7 +4,7 @@
 	<properties sight="700"/>
 	<properties damage="100" armor_slash="10" armor_pierce="15"/>
 	<properties range="700"/>
-	<properties max_units_to_board="60"/>
+	<properties max_units_to_board="120"/>
 	<properties unit_specials=""/>
 	<properties healthbar_type="0"/>
 
