@@ -83,6 +83,27 @@ while(1)
 	nTime = GetConst("EliminationTimeout");
 	while (nTime>0) 
 	{
+		/* --- KILLS, LOSSES, K/L RATIO STATISTICS --- */
+		int killed = 0;
+		int death = 0;
+		killed = EnvReadInt(player, "EEE_TotUnitsKilled");
+		death = EnvReadInt(player, "EEE_TotUnitsDeath");
+		SetPlayerStatus(player, 2, Translatef("Kills: %s1", killed), true);
+		SetPlayerStatus(player, 3, Translatef("Deaths: %s1", death), true);
+		if(killed >= 1 && death >= 1)
+		{
+			float K = 0;
+			float D = 0;
+			float KD = 0;
+			K = killed;
+			D = death;
+			KD = K/D;
+			SetPlayerStatus(player, 4, Translatef("K/D ratio: %s1.%s2", Int(KD), Int((KD - Int(KD)) * 10)), true);	
+		}
+		else
+		{
+			SetPlayerStatus(player, 4, "K/D ratio: NaN", true);
+		}	//Fine else.
 		if (MilUnits(player)==0) 
 		{
 			/* //PLAYER BUILDINGS BECAME NEUTRALS WHEN PLAYER IS BEEN ELIMINATED: 
