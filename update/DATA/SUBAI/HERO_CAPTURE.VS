@@ -47,9 +47,11 @@ if (b.IsValid)
 		if (.Goto(u, 250, 5000, true, 2500))
 		{
 			if(.player == b.player) return;
-			// heroes can't capture allied settlements until allied player is not been eliminated
-			if( (DiplAreAllied(.player, b.player) == true) && (EnvReadInt(b.player, "elimination") != 1) ) 
+			// heroes can't capture allied human settlements until allied player is not been eliminated
+			if( (DiplAreAllied(.player(), b.player()) == true) && (EnvReadInt(b.player(), "elimination") != 1) && (IsAIPlayer(b.player()) == false) )
+			{
 				return;
+			}
 			bEnemy = .IsEnemy(u);
 			if (!bEnemy)
 			if (!u.IsEnemy(this))
@@ -94,9 +96,11 @@ else if( u.IsHeirOf("Wagon") )
 		{
 			if (!w.IsAlive) return;
 			if (.player == u.player) return;
-			// heroes can't capture allied wagon until allied player is not been eliminated
-			if( (DiplAreAllied(.player, w.player) == true) && (EnvReadInt(w.player, "elimination") != 1) ) 
+			// heroes can't capture allied human wagon until allied player is not been eliminated
+			if( (DiplAreAllied(.player(), w.player()) == true) && (EnvReadInt(w.player(), "elimination") != 1) && (IsAIPlayer(w.player()) == false) )
+			{
 				return;
+			}
 			if (!u.IsEnemy(me))
 			if (!me.IsEnemy(u))
 			{
@@ -141,9 +145,11 @@ else if(u.IsHeirOf("WildHorse") == true)
 				return;
 			if(.player() == wildHorse.player()) 
 				return;
-			// heroes can't capture allied horse until allied player is not been eliminated
-			if( (DiplAreAllied(.player, wildHorse.player) == true) && (EnvReadInt(wildHorse.player, "elimination") != 1) ) 
+			// heroes can't capture allied human horse until allied player is not been eliminated
+			if( (DiplAreAllied(.player(), wildHorse.player()) == true) && (EnvReadInt(wildHorse.player(), "elimination") != 1) && (IsAIPlayer(wildHorse.player()) == false) )
+			{
 				return;
+			}
 			if(wildHorse.IsEnemy(this) == false)
 			if(.IsEnemy(wildHorse) == false)
 			{
