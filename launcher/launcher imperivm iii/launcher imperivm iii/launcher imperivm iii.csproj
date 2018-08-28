@@ -8,9 +8,10 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>launcher_imperivm_iii</RootNamespace>
     <AssemblyName>launcher imperivm iii</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -35,6 +36,9 @@
     <ApplicationIcon>ico.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MaterialSkin">
+      <HintPath>..\packages\MaterialSkin.Updated.0.2.2\lib\MaterialSkin.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -62,18 +66,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -100,6 +104,26 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ico.ico" />
+    <None Include="Resources\altavoz-herramienta-de-audio-llena.png" />
+    <None Include="Resources\menos.png" />
+    <None Include="Resources\mas.png" />
+    <None Include="Resources\carpeta.png" />
+    <None Include="Resources\Logo_haemimont.svg.png" />
+    <None Include="Resources\discord1.png" />
+    <None Include="Resources\discord.png" />
+    <None Include="Resources\logo-de-aplicacion-de-facebook.png" />
+    <None Include="Resources\github.png" />
+    <None Include="Resources\reanudar.png" />
+    <None Include="Resources\mapa.png" />
+    <None Include="Resources\casco-romano.png" />
+    <None Include="Resources\bandera-en-un-planeta-bajo-las-estrellas.png" />
+    <None Include="Resources\indicador-del-volumen-apagado.png" />
+    <None Include="Resources\lan.png" />
+    <None Include="Resources\res.png" />
+    <None Include="Resources\adm.png" />
+    <None Include="Resources\logo1.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\run.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
