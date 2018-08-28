@@ -63,11 +63,13 @@ if (b.IsValid() )
 		if(.Goto(u, 250, 5000, true, 2500))
 		{
 			if(.player == b.player) return;
+			/*
 			// units can't capture allied human settlements until allied player is not been eliminated
 			if( (DiplAreAllied(.player(), b.player()) == true) && (EnvReadInt(b.player(), "elimination") != 1) && (IsAIPlayer(b.player()) == false) )
 			{
 				return;
 			}
+			*/
 			bEnemy = .IsEnemy(u);
 			if (!bEnemy)
 			if (!u.IsEnemy(this))
