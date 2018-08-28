@@ -5,9 +5,16 @@ Obj u;
 
 this = me.AsUnit();
 
-if(.IsValid() == true && IsAIPlayer(.player) == true) // leave parry mode at new command
+if(.IsValid() == false)
+	return;
+
+if(.IsHeirOf("Animal") == true)
+	.SetCommand("move", pt);
+	
+if(IsAIPlayer(.player) == true) // leave parry mode at new command
 	.SetParryMode(false);
- 
+
+	
 while (1) 
 {
 	//pr("advance: searching for new enemy");
