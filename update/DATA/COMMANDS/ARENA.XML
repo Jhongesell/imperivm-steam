@@ -330,7 +330,7 @@
 	groupverifier="data/subai/verify_cmdcost_building.vs"
 	traincommand="yes"
 	key="h"
-	costgold = "1000"
+	costgold = "800"
 	costfood = "0"
 	costpop = "0"
 	execdelay = "20000"

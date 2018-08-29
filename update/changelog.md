@@ -8,7 +8,8 @@ All the changes are listed below.
 
 ### BUGS FIXED
 
-* Black Catapult 
+* Black Catapult
+* Bug of Eagle 
 * Gem of Wisdom
 * Activation of enemy heroes' ability from their own skill bar
 * Teleport of dropped items
@@ -57,7 +58,7 @@ All the changes are listed below.
 * "Spoils of War" doesn't work with Sentinels and Catapults.
 * Javelin Thrower: more speed and health (180)
 * Berber assassin (mauritano): more health (380)
-* Hero: skill change (Quick March for Egoism) and improved stats (atk: 50; def: 12; health: 1200)
+* Hero: skill change (Quick March for Egoism) and improved stats (atk: 50; def: 18; health: 1200)
 
 ### Iberia
 
@@ -68,7 +69,7 @@ All the changes are listed below.
 ### Republican Rome
 
 * Tribune: improved stats (def: 16)
-* Hero: less expensive (1000) and more health (1200)
+* Hero: less expensive (800) and more health (1200)
 * Colosseum: now has tecnology "Nobility"
 
 ### Rome (both)
