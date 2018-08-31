@@ -21,7 +21,6 @@ All the changes are listed below.
 * Attaching of ships (and some other unexpected units) to hero
 * Gold wagons disappear into teuton tent
 * Ship bug that allowed you to move an allied ship without shared control
-* Now you can capture only IA structures
 * Units can't now destroy own catapults
 * Units can't now destroy allied catapults and allied buildings
 * AI units without hero sometimes can't conquer enemy buildings
