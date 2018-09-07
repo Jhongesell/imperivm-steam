@@ -4,6 +4,8 @@
 
 This project aims to create an updated Imperivm version for Steam with a lot of adjustments and, if possible, a dedicated online server. This repository contains the launcher code, every alteration to the original game (the starting point is 1.40 version) and some useful applications (ARCH.exe and the two NEMESIS applications).
 
+You need Python 3 to use some utilities.
+
 In the 'docs' folder there is the whole documentation. There you can read what we want to change in the next version. Instead, in the 'update' folder, you can find the 'changelog.md' file which contains what we changed until now.
 
 ## Contacts
