@@ -8,6 +8,8 @@ In the 'docs' folder there is the whole documentation. There you can read what w
 
 ## Contacts
 
+![imperivmworld](https://i.imgur.com/Jd3oXG5.jpg)
+
 * Referee: fabian (a.k.a. razor)
 * Main programmers: ricky96highlander, danijerez, themaster0017
 * Testers: joseliyo, jordi
