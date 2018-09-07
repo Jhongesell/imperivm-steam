@@ -7,10 +7,6 @@ All the changes are listed below.
 
 (The starting point is **1.40** !!)
 
-### LAUNCHER
-
-* Restyled graphic and some new functionalities
-
 ### BUGS FIXED
 
 * Black Catapult
