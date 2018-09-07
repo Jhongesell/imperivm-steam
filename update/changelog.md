@@ -5,6 +5,7 @@ All the changes are listed below.
 ------
 ## VERSION 1.51: 
 
+(The starting point is **1.40** !!)
 
 ### LAUNCHER
 
