@@ -1,3 +1,3 @@
-Current version: 1.51
+Current version: 1.52
 
-Published on Steam: YES
+Published on Steam: NO
