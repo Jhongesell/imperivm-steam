@@ -8,3 +8,12 @@
 
 * Gaul (Sentinel). Remove Drain ability (sfinimento/extenuacion).
 
+* Bug of Guardpost's range 
+
+* Allow Guardpost to have routes 
+
+* Scout will not be able to take objects
+
+* Teutons now use food when you take them out from the Tent
+
+* Some traductions
