@@ -1,6 +1,6 @@
 # 1.52 CHANGES 
 
-* Add new "ability" to Heroes: "Fidelity". You can activate it only if heroes have almost 10 attached units, and the result is: "Hero can't attack and be attacked for 5 seconds". It costs 1 point of stamina. 
+* Add new "ability" to Heroes: "Fidelity". You can activate it only if heroes have almost 10 attached units, and the result is: "Hero can't attack and be attacked for 5 seconds".
 
 * Teuton Tents. You can now choose which unit to produce, and the production works automatically and with same time as in the 1.40 version
 
