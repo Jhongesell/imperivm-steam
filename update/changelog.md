@@ -6,7 +6,7 @@ All the changes are listed below.
 
 (The starting point is **1.51** !!)
 
-### Adjustments
+### ADJUSTMENTS
 
 * Gaul and Carthago Sentries
 * Some traductions
