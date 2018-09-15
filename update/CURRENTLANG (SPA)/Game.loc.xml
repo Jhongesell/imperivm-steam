@@ -1,4 +1,6 @@
 <translationtable>
+<!-- arciere teutonico -->
+<translationtableentry text="Equip Teuton Archer@trainTTeutonArcher" justtext="Equip Teuton Archer" context="trainTTeutonArcher" result="Equipar Arqueros teutones" comment="Rollover for command trainTTeutonArcher"/>
 <!-- esploratore -->
 <translationtableentry text="Scout@IScout class name" justtext="Scout" context="IScout class name" result="Explorador" comment=""/>
 <translationtableentry text="Scouts@IScout class name plural" justtext="Scouts" context="IScout class name plural" result="Exploradores" comment=""/>
