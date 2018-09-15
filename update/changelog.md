@@ -7,6 +7,14 @@ All the changes are listed below.
 ### Adjustments
 
 * Gaul and Carthago Sentries
+* Some traductions
+
+### BALANCE TO CIVILIZATIONS
+
+* Gallic Archer/Sentry: Attack=12 (+2)
+* Britannic Shield Bearer (Lottatore caledone / Luchador caledonio): Attack=18(-2) Defense=18(+8) Health=280(+40) Price=160(+20)
+* Britannic Bronze Spearman (Lanciere / Lancero): Attack=22(+2) Defense=16(+4)
+* Germanic Axeman (Guerriero con ascia / Guerrero con acha): Attack=40(+10) Health=280(+40) Ability=Cripple(Esaurimento vitale/Desvanecimiento).
 
 ------
 ## VERSION 1.51: 
