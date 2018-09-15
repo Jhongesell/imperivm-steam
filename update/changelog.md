@@ -1,8 +1,10 @@
-﻿# What's new?
+# What's new?
 
 All the changes are listed below.
 
 ## VERSION 1.52
+
+(The starting point is **1.51** !!)
 
 ### Adjustments
 
