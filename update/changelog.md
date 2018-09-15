@@ -2,6 +2,12 @@
 
 All the changes are listed below.
 
+## VERSION 1.52
+
+### Adjustments
+
+* Gaul and Carthago Sentries
+
 ------
 ## VERSION 1.51: 
 

@@ -8,8 +8,6 @@
 
 * Britain and Roma. The size of explored area (tecnology in the Tavern) now is smaller.
 
-* Gaul (Sentinel). Remove Drain ability (sfinimento/extenuacion).
-
 * Bug of Guardpost's range 
 
 * Allow Guardpost to have routes 
@@ -19,3 +17,7 @@
 * Teutons now use food when you take them out from the Tent
 
 * Some traductions
+
+### Already done
+
+* Gaul and Carthago sentries
