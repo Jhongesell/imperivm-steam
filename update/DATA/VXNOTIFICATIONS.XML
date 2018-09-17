@@ -109,7 +109,8 @@
 			changepositiontime = "700"
 			suspendradius = "1000"
 			framechangetime = "80"
-			icon = "gameres/infobar/common/military.bmp"
+            duration = "2000"
+            icon = "gameres/infobar/common/military.bmp"
 			/>
 
 <notification
