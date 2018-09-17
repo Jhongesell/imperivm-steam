@@ -11,7 +11,7 @@
 
 ### Already done
 
-* Some traductions
+* Some translations
 * Gallic and Carthaginian Sentries (now stats are the same as Archers)
 * Gallic Archer/Sentry: Attack=12 (+2)
 * Britannic Shield Bearer (Lottatore caledone / Luchador caledonio): Attack=18(-2) Defense=18(+8) Health=280(+40) Price=160(+20)
