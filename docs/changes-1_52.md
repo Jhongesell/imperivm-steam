@@ -17,3 +17,5 @@
 * Britannic Shield Bearer (Lottatore caledone / Luchador caledonio): Attack=18(-2) Defense=18(+8) Health=280(+40) Price=160(+20)
 * Britannic Bronze Spearman (Lanciere / Lancero): Attack=22(+2) Defense=16(+4)
 * Germanic Axeman (Guerriero con ascia / Guerrero con acha): Attack=40(+10) Health=280(+40) Ability=Cripple(Esaurimento vitale/Desvanecimiento).
+* The only speed available online is 140%. It's set by default and you can't change it.
+* The number of wild Horses and Deers now is more balanced.

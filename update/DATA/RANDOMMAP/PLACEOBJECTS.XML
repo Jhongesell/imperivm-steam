@@ -442,9 +442,9 @@
 </ifdef>
 <ifdef id="wildlife">    
   <GameObj class="WildHorse" 
-	min="3" max="5" 
+	min="2" max="4" 
 	mindist="2500" inf-max="20" inf="0"
-	mingroup="2" maxgroup="5" groupdist="100"
+	mingroup="1" maxgroup="4" groupdist="100"
 	/>
 </ifdef>
 </PlaceGameObjects>
@@ -901,16 +901,16 @@
 </ifdef>
 <ifdef id="wildlife">    
   <GameObj class="Deer" 
-	min="4" max="10" 
+	min="4" max="9" 
 	mindist="1500" inf-max="16" inf="0"
-	mingroup="3" maxgroup="5" groupdist="100"
+	mingroup="3" maxgroup="4" groupdist="100"
 	/>
 </ifdef>
 <ifdef id="wildlife">    
   <GameObj class="WildHorse" 
-	min="5" max="10" 
+	min="4" max="9" 
 	mindist="2500" inf-max="20" inf="0"
-	mingroup="2" maxgroup="5" groupdist="100"
+	mingroup="1" maxgroup="4" groupdist="100"
 	/>
 </ifdef>
 </PlaceGameObjects>

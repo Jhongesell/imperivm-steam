@@ -10,6 +10,8 @@ All the changes are listed below.
 
 * Gaul and Carthago Sentries
 * Some traductions
+* The only speed available online is 140%. It's set by default and you can't change it.
+* The number of wild Horses and Deers now is more balanced.
 
 ### BALANCE TO CIVILIZATIONS
 
