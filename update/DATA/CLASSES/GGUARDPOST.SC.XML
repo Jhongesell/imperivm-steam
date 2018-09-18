@@ -20,6 +20,7 @@
 		max_units="0"
 	/>
 	
+	<behavior script="data/subai/settlement_behavior_horses.vs"/>
 	<behavior script="data/subai/GGuardPost_Sentries.vs"/>
 	<method sig="repair" vs="data/subai/building_repair.vs"/>
 
