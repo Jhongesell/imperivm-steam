@@ -33,6 +33,9 @@ if(exp_gain > MAX_EXPERIENCE)
 {
 	exp_gain = MAX_EXPERIENCE;
 }
+
+.Progress();
+
 teuton = Place(carCmdParam, .pos(), .player());
 teuton.SetFood(teuton.maxfood());
 teuton.SetFeeding(false);
