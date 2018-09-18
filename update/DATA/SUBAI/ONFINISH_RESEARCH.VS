@@ -111,11 +111,16 @@ while(dest != "")
 			}
 
 			l = ClassPlayerObjs("Outpost", .player).GetObjList();
-			for (i = l.count() - 1; i >= 0; i -= 1) {
+			for (i = l.count() - 1; i >= 0; i -= 1) 
+			{
 				bld = l[i].AsBuilding();
-				if (bld.IsValid()) {
+				if (bld.IsValid()) 
+				{
+					if(bld.IsHeirOf("GGuardPost") == true) continue;
+					
 					s = bld.settlement;
-					if (s.IsValid()) {
+					if (s.IsValid()) 
+					{
 						s.SetGold(s.gold + gold);
 						s.GoldConverted(gold);
 					}
@@ -175,14 +180,14 @@ while(dest != "")
 		EnvWriteString(.settlement, name, "researched");
 		if(name == "Gambling")
 		{	// Gambling implementation
-            int CHANCE;
+			int CHANCE;
 			CHANCE = GetConst("GamblingChance");
 			if(rand(100) < CHANCE)
 			{
 				.settlement().SetFood(.settlement().food() + 2500); //Get 2500 of food.
-				ExploreCircle(.player(), .pos(), 6000); //Explore a large area around stronghold.
 				//.settlement.GoldConverted(5000);
 			}
+			ExploreCircle(.player(), .pos(), 4500); //Explore a large area around stronghold.
 		}
 		else if (name == "Fights" && .race==Germany) {// Fights, Germany implementation
 			.settlement.SetFood(.settlement.food + 2000);
@@ -200,7 +205,7 @@ while(dest != "")
 			.settlement.SetPopulation(100);
 		}
 		else if (name == "Free Wine"){	// Buy map implementation - in Free Wine now
-			ExploreCircle(.player, .pos, 6000);
+			ExploreCircle(.player, .pos, 4500);
 		}
 		else if (name == "Slavery") {// Slavery implementation
              int SlaveryGold;
