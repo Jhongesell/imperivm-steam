@@ -40,10 +40,10 @@
 	execdelay = "30000"
 	researchcommand="yes"
 	groupverifier="data/subai/verify_research.vs"
-	description="All new warriors are level 4"
+	description="All new warriors and heroes are level 4"
 	rollover="Fights"
 	method="research"
-	param="SetsSet, levels/BSwordsman, 4, SetsSet, levels/BBowman, 4, SetsSet, levels/BBronzeSpearman, 4, SetsSet,levels/BShieldBearer, 4, SetsSet,levels/BJavelineer, 4,SetsSet,levels/BHighlander, 4,NameSet, Fights, default,">
+	param="SetsSet, levels/Hero, 4, SetsSet, levels/BSwordsman, 4, SetsSet, levels/BBowman, 4, SetsSet, levels/BBronzeSpearman, 4, SetsSet,levels/BShieldBearer, 4, SetsSet,levels/BJavelineer, 4,SetsSet,levels/BHighlander, 4,NameSet, Fights, default,">
 	<src obj="BMorrigansMonument"/>
 </cmd>
 <cmd name="MGladiator Shows" priority="2"
@@ -70,11 +70,11 @@
 	costfood = "0"
 	execdelay = "25000"
 	groupverifier="data/subai/verify_research.vs"
-	description="Allows Gladiators to be hired"
+	description="Allows Gladiators to be hired and all new heroes are level 4"
 	rollover="Gladiator shows"
 	method="research"
 	researchcommand="yes"
-	param="NameSet, Gladiator Shows, default, NameSet, RGladiator, default">
+	param="SetsSet, levels/Hero, 4, NameSet, Gladiator Shows, default, NameSet, RGladiator, default">
 	<src obj="RArena"/>
 </cmd>
 
