@@ -1,9 +1,6 @@
 # 1.52 CHANGES 
 
-* Add new "ability" to Heroes: "Fidelity". You can activate it only if heroes have almost 10 attached units, and the result is: "Hero can't attack and be attacked for 5 seconds".
-* Teuton Tents. You can now choose which unit to produce, and the production works automatically and with same time as in the 1.40 version
-* Bug of Guardpost's range 
-* Allow Guardpost to have routes 
+* Teuton Tents. You can now choose which unit to produce, and the production works automatically and with same time as in the 1.40 version 
 * Scout will not be able to take objects
 * Teutons now use food when you take them out from the Tent
 
@@ -22,3 +19,4 @@
 * Horse. Now if you go with the horse near to an enemy townhall or guardposts, you will lose the control of the horse
 * Fix britannic technology: "Gambling" (Intercessione divina/Favor de los dioses)
 * Britain and Roma. The size of explored area (tecnology in the Tavern) now is smaller (-25%).
+* Guardposts are excluded from "Tribute".
