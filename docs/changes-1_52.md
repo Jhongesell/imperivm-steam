@@ -2,7 +2,6 @@
 
 * Add new "ability" to Heroes: "Fidelity". You can activate it only if heroes have almost 10 attached units, and the result is: "Hero can't attack and be attacked for 5 seconds".
 * Teuton Tents. You can now choose which unit to produce, and the production works automatically and with same time as in the 1.40 version
-* Horse. Now if you go with the horse near to an enemy townhall, you will lose the control of the horse
 * Britain and Roma. The size of explored area (tecnology in the Tavern) now is smaller.
 * Bug of Guardpost's range 
 * Allow Guardpost to have routes 
@@ -22,3 +21,4 @@
 * The number of wild Horses and Deers now is more balanced.
 * The "Army's starving" notification now disappears automatically after 2 seconds.
 * "Fights" technology, for Britain and Republican Rome, makes new heroes level 4 
+* Horse. Now if you go with the horse near to an enemy townhall or guardposts, you will lose the control of the horse
