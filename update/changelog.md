@@ -16,6 +16,7 @@ All the changes are listed below.
 * Horse. Now if you go with the horse near to an enemy townhall or guardposts, you will lose the control of the horse
 * Fix britannic technology: "Gambling" (Intercessione divina/Favor de los dioses)
 * Britain and Roma. The size of explored area (tecnology in the Tavern) now is smaller (-25%).
+* Guardposts are excluded from "Tribute".
 
 ### BALANCE TO CIVILIZATIONS
 
