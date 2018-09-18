@@ -6,11 +6,11 @@ GAMES
 
 
 
-==== Versione 1.50 (2018) & Versione 1.51 (2018) ====
+==== V. 1.50 (2018) & V. 1.51 (2018) & V. 1.52 (2018) ====
 
 FX INTERACTIVE
 
-Dani Jerez
+Daniel Jerez
 
 
 
@@ -24,6 +24,7 @@ Giorgio "The Master" Oggiano
 
 SPECIAL THANKS TO OTHER MEMBERS OF IMPERIVM WORLD TEAM
 
+Mario
 Gaetano
 Roberto
 Gabriele
