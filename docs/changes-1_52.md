@@ -1,7 +1,6 @@
 # 1.52 CHANGES 
 
 * Teuton Tents. You can now choose which unit to produce, and the production works automatically and with same time as in the 1.40 version 
-* Scout will not be able to take objects
 * Teutons now use food when you take them out from the Tent
 
 ### Already done
