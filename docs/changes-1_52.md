@@ -8,6 +8,7 @@
 * Allow Guardpost to have routes 
 * Scout will not be able to take objects
 * Teutons now use food when you take them out from the Tent
+* Fix britannic technology: "Gambling" (Intercessione divina/Favor de los dioses)
 
 ### Already done
 
