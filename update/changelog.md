@@ -14,6 +14,8 @@ All the changes are listed below.
 * The number of wild Horses and Deers now is more balanced.
 * The "Army's starving" notification now disappears automatically after 2 seconds.
 * Horse. Now if you go with the horse near to an enemy townhall or guardposts, you will lose the control of the horse
+* Fix britannic technology: "Gambling" (Intercessione divina/Favor de los dioses)
+* Britain and Roma. The size of explored area (tecnology in the Tavern) now is smaller (-25%).
 
 ### BALANCE TO CIVILIZATIONS
 
