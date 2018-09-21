@@ -13,6 +13,7 @@ In the 'docs' folder there is the whole documentation. There you can read what w
 * Referee: fabian (a.k.a. razor)
 * Main programmers: ricky96highlander, danijerez, themaster0017
 * Testers: joseliyo, jordi
+* Translator: julioperez
 
 We recommend to join our DISCORD server: https://discord.gg/RErjBq8 . There you can start to be in touch with us and give us your feedback and ideas.
 
