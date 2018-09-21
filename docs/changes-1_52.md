@@ -16,5 +16,5 @@
 * Fix britannic technology: "Gambling" (Intercessione divina/Favor de los dioses)
 * Britain and Roma. The size of explored area (tecnology in the Tavern) now is smaller (-25%).
 * Guardposts are excluded from "Tribute".
-* Teuton Tents. Now you can choose what unite to produce, but it takes 15 seconds per unit.
+* Teuton Tents. Now you can choose what unit to produce, and the production works automatically
 * Teutons now use food when you take them out from the Tent
