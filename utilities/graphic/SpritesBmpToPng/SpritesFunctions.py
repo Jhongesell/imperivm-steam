@@ -1,3 +1,5 @@
+# IMPORT PACKAGES
+
 from PIL import Image
 from collections import Counter
 import numpy as np
@@ -76,12 +78,12 @@ def SpritesFixer(pil_im):
     h = h1-h0
     w = w1-w0
 
-    # RITAGLIO SPRITES
+    # CROP SPRITES
 
     for (k,v) in D.items():
         D[k]=v[h0:h1,w0:w1]
 
-    # CREAZIONE SPRITE FINALE
+    # CREATE FINAL SPRITE
     
     W = w * FRAMES
     H = h * DIRECTIONS
