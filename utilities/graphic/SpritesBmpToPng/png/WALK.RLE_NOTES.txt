@@ -1,0 +1,4 @@
+/* WALK.RLE */
+
+Cell width: 60
+Cell height: 60

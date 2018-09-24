@@ -1,0 +1,4 @@
+/* TTEUTONWOLF_IDLE.RLE */
+
+Cell width: 102
+Cell height: 101

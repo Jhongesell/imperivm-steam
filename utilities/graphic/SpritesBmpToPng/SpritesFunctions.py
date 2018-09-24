@@ -95,4 +95,4 @@ def SpritesFixer(pil_im):
         for j in range(FRAMES):
             BACK[i*h:(i*h+h), j*w:(j*w+w)] = D[(j,i)]
 
-    return Image.fromarray(BACK)
+    return [Image.fromarray(BACK), w, h]
