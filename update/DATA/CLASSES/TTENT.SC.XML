@@ -11,11 +11,13 @@
 
 	<behavior script="data/subai/ttent_behavior.vs"/>
 	<behavior script="data/subai/ttent_feeding_behavior.vs"/>
+	<behavior script="data/subai/ttent_train_behavior.vs"/>
+	
 	
 	<method sig="createfoodmulesmall" vs="data/subai/create_food_mule_small.vs"/>
 	<method sig="createfoodmulebig"   vs="data/subai/create_food_mule_big.vs"/>
 	<method sig="creategoldmulebig"   vs="data/subai/create_gold_mule_big.vs"/>
-	<method sig="train" vs="data/subai/ttent_train.vs"/>
+	<method sig="teutonProduction"    vs="data/subai/ttent_teuton_production.vs"/>
 	
 	
 	<properties

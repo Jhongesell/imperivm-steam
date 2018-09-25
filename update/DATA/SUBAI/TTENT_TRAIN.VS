@@ -1,5 +1,8 @@
 // void, Obj This
 
+/* OBSOLETE METHOD USED IN 1.51 */
+
+
 Building this;
 str carCmdParam, cdrCmdParam; 
 Unit teuton;

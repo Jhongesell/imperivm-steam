@@ -29,57 +29,137 @@
 	<src obj="TTent"/>
 </cmd>
 
-<cmd name="newTTeutonRider" priority="3"
+<!--
+	<cmd name="newTTeutonRider" priority="3"
+		button="actions/train TTeutonRider.bmp"
+		queueicon="gameres/icons/TTeutonRider.bmp"
+		groupverifier="data/subai/verify_cmdcost_building.vs"
+		transpicon="1"
+		traincommand="yes"
+		key="r"
+		help="/contents/units/TTeutonRider"
+		costfood = "400"
+		costpop = "0"
+		execdelay="15000"
+		rollover="Equip Teuton Rider"
+		method="train"
+		param="TTeutonRider"
+		sclass="TTeutonRider">
+		<src obj="TTent"/>
+	</cmd>
+
+	<cmd name="newTTeutonArcher" priority="4"
+		button="actions/train TTeutonArcher.bmp"
+		queueicon="gameres/icons/TTeutonArcher.bmp"
+		groupverifier="data/subai/verify_cmdcost_building.vs"
+		transpicon="1"
+		traincommand="yes"
+		key="a"
+		help="/contents/units/TTeutonArcher"
+		costfood = "400"
+		costpop = "0"
+		execdelay="15000"
+		rollover="Equip Teuton Archer"
+		method="train"
+		param="TTeutonArcher"
+		sclass="TTeutonArcher">
+		<src obj="TTent"/>
+	</cmd>
+
+	<cmd name="newTTeutonWolf" priority="5"
+		button="actions/train TTeutonWolf.bmp"
+		queueicon="gameres/icons/TTeutonWolf.bmp"
+		groupverifier="data/subai/verify_cmdcost_building.vs"
+		transpicon="1"
+		traincommand="yes"
+		key="w"
+		help="/contents/units/TTeutonWolf"
+		costfood = "500"
+		costpop = "0"
+		execdelay="15000"
+		rollover="Equip Teuton Wolf"
+		method="train"
+		param="TTeutonWolf"
+		sclass="TTeutonWolf">
+		<src obj="TTent"/>
+	</cmd>
+-->
+
+<cmd name="StartTTeutonRiderTrain" priority="3"
+	method="teutonProduction"
 	button="actions/train TTeutonRider.bmp"
-	queueicon="gameres/icons/TTeutonRider.bmp"
-	groupverifier="data/subai/verify_cmdcost_building.vs"
 	transpicon="1"
-	traincommand="yes"
+	cursor=""
 	key="r"
-	help="/contents/units/TTeutonRider"
-	costfood = "400"
-	costpop = "0"
-	execdelay="15000"
-	rollover="Equip Teuton Rider"
-	method="train"
-	param="TTeutonRider"
-	sclass="TTeutonRider">
+	immediate="yes"
+	rollover="Train Teuton Riders"
+	description="Start automatically Teuton Riders Production"
+	param="StartTTeutonRiderProduction">
 	<src obj="TTent"/>
 </cmd>
 
-<cmd name="newTTeutonArcher" priority="4"
+<cmd name="StopTTeutonRiderTrain" priority="3"
+	method="teutonProduction"
+	button="actions/Stop TTeutonRider.bmp"
+	transpicon="1"
+	cursor=""
+	key ="s"
+	immediate="yes"
+	rollover="Stop Train Teuton Riders"
+	description="Stop automatically Teuton Riders Production"
+	param="StopTTeutonRiderProduction">
+	<src obj="TTent"/>
+</cmd>
+
+<cmd name="StartTTeutonArcherTrain" priority="4"
+	method="teutonProduction"
 	button="actions/train TTeutonArcher.bmp"
-	queueicon="gameres/icons/TTeutonArcher.bmp"
-	groupverifier="data/subai/verify_cmdcost_building.vs"
 	transpicon="1"
-	traincommand="yes"
+	cursor=""
 	key="a"
-	help="/contents/units/TTeutonArcher"
-	costfood = "400"
-	costpop = "0"
-	execdelay="15000"
-	rollover="Equip Teuton Archer"
-	method="train"
-	param="TTeutonArcher"
-	sclass="TTeutonArcher">
+	immediate="yes"
+	rollover="Train Teuton Archers"
+	description="Start automatically Teuton Archers Production"
+	param="StartTTeutonArcherProduction">
 	<src obj="TTent"/>
 </cmd>
 
-<cmd name="newTTeutonWolf" priority="5"
-	button="actions/train TTeutonWolf.bmp"
-	queueicon="gameres/icons/TTeutonWolf.bmp"
-	groupverifier="data/subai/verify_cmdcost_building.vs"
+<cmd name="StopTTeutonArcherTrain" priority="4"
+	method="teutonProduction"
+	button="actions/Stop TTeutonArcher.bmp"
 	transpicon="1"
-	traincommand="yes"
+	cursor=""
+	key ="s"
+	immediate="yes"
+	rollover="Stop Train Teuton Archers"
+	description="Stop automatically Teuton Archers Production"
+	param="StopTTeutonArcherProduction">
+	<src obj="TTent"/>
+</cmd>
+
+<cmd name="StartTTeutonWolfTrain" priority="5"
+	method="teutonProduction"
+	button="actions/train TTeutonWolf.bmp"
+	transpicon="1"
+	cursor=""
 	key="w"
-	help="/contents/units/TTeutonWolf"
-	costfood = "500"
-	costpop = "0"
-	execdelay="15000"
-	rollover="Equip Teuton Wolf"
-	method="train"
-	param="TTeutonWolf"
-	sclass="TTeutonWolf">
+	immediate="yes"
+	rollover="Train Teuton Wolves"
+	description="Start automatically Teuton Wolves Production"
+	param="StartTTeutonWolfProduction">
+	<src obj="TTent"/>
+</cmd>
+
+<cmd name="StopTTeutonWolfTrain" priority="5"
+	method="teutonProduction"
+	button="actions/Stop TTeutonWolf.bmp"
+	transpicon="1"
+	cursor=""
+	key ="s"
+	immediate="yes"
+	rollover="Stop Train Teuton Wolves"
+	description="Stop automatically Teuton Wolves Production"
+	param="StopTTeutonWolfProduction">
 	<src obj="TTent"/>
 </cmd>
 
