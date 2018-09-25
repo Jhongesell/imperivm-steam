@@ -1,6 +1,20 @@
 <translationtable>
-<!-- arciere teutonico -->
-<translationtableentry text="Equip Teuton Archer@trainTTeutonArcher" justtext="Equip Teuton Archer" context="trainTTeutonArcher" result="Equipaggia arciere teutonico" comment="Rollover for command trainTTeutonArcher"/>
+<!-- accampamento teutonico -->
+<!-- cavaliere -->
+<translationtableentry text="Train Teuton Riders@StartTTeutonRiderTrain" justtext="Train Teuton Riders" context="StartTTeutonRiderTrain" result="Equipaggia cavalieri teutonici" comment="Rollover for command StartTTeutonRiderTrain"/>
+<translationtableentry text="Start automatically Teuton Riders Production@StartTTeutonRiderTrain" justtext="Start automatically Teuton Riders Production" context="StartTTeutonRiderTrain" result="Inizia a reclutare automaticamente cavalieri teutonici" comment="Description for command StartTTeutonRiderTrain"/>
+<translationtableentry text="Stop Train Teuton Riders@StopTTeutonRiderTrain" justtext="Stop Train Teuton Riders" context="StopTTeutonRiderTrain" result="Smetti di reclutare cavalieri teutonici" comment="Rollover for command StopTTeutonRiderTrain"/>
+<translationtableentry text="Stop automatically Teuton Riders Production@StopTTeutonRiderTrain" justtext="Stop automatically Teuton Riders Production" context="StopTTeutonRiderTrain" result="Smetti di reclutare automaticamente cavalieri teutonici" comment="Description for command StopTTeutonRiderTrain"/>
+<!-- arciere -->
+<translationtableentry text="Train Teuton Archers@StartTTeutonArcherTrain" justtext="Train Teuton Archers" context="StartTTeutonArcherTrain" result="Equipaggia arcieri teutonici" comment="Rollover for command StartTTeutonArcherTrain"/>
+<translationtableentry text="Start automatically Teuton Archers Production@StartTTeutonArcherTrain" justtext="Start automatically Teuton Archers Production" context="StartTTeutonRiderTrain" result="Inizia a reclutare automaticamente arcieri teutonici" comment="Description for command StartTTeutonArcherTrain"/>
+<translationtableentry text="Stop Train Teuton Archers@StopTTeutonArcherTrain" justtext="Stop Train Teuton Archers" context="StopTTeutonArcherTrain" result="Smetti di reclutare arcieri teutonici" comment="Rollover for command StopTTeutonArcherTrain"/>
+<translationtableentry text="Stop automatically Teuton Archers Production@StopTTeutonArcherTrain" justtext="Stop automatically Teuton Archers Production" context="StopTTeutonArcherTrain" result="Smetti di reclutare automaticamente arcieri teutonici" comment="Description for command StopTTeutonArcherTrain"/>
+<!-- incursore -->
+<translationtableentry text="Train Teuton Wolves@StartTTeutonWolfTrain" justtext="Train Teuton Riders" context="StartTTeutonWolfTrain" result="Equipaggia incursori teutonico" comment="Rollover for command StartTTeutonWolfTrain"/>
+<translationtableentry text="Start automatically Teuton Wolves Production@StartTTeutonWolfTrain" justtext="Start automatically Teuton Riders Production" context="StartTTeutonWolfTrain" result="Inizia a reclutare automaticamente incursori teutonici" comment="Description for command StartTTeutonWolfTrain"/>
+<translationtableentry text="Stop Train Teuton Wolves@StopTTeutonWolfTrain" justtext="Stop Train Teuton Riders" context="StopTTeutonWolfTrain" result="Smetti di reclutare incursori teutonici" comment="Rollover for command StopTTeutonWolfTrain"/>
+<translationtableentry text="Stop automatically Teuton Wolves Production@StopTTeutonWolfTrain" justtext="Stop automatically Teuton Riders Production" context="StopTTeutonWolfTrain" result="Smetti di reclutare automaticamente incursori teutonici" comment="Description for command StopTTeutonWolfTrain"/>
 <!-- esploratore -->
 <translationtableentry text="Scout@IScout class name" justtext="Scout" context="IScout class name" result="Esploratore" comment=""/>
 <translationtableentry text="Scouts@IScout class name plural" justtext="Scouts" context="IScout class name plural" result="Esploratori" comment=""/>
@@ -27,7 +41,6 @@
 <translationtableentry text="Teuton Wolf@editortree/Units/German" justtext="Teuton Wolf" context="" result="Incursore teutonico" comment="editortree"/>
 <translationtableentry text="Teuton Wolves@TTeutonWolf class name plural" justtext="Teuton Wolves" context="TTeutonWolf class name plural" result="Incursori teutonici" comment=""/>
 <translationtableentry text="German Teuton Wolf@/Editor/combo/uniticons.ini:FillCombo:German Teuton Wolf " justtext="German Teuton Wolf" context="/Editor/combo/uniticons.ini:FillCombo:German Teuton Wolf " result="Incursore teutonico" comment=""/>
-<translationtableentry text="Equip Teuton Wolf@newTTeutonWolf" justtext="Equip Teuton Wolf" context="newTTeutonWolf" result="Equipaggia incursore teutonico" comment="Rollover for command newTTeutonWolf"/>
 <!-- cavallo -->
 <translationtableentry text="Whorse@/Editor/combo/uniticons.ini:FillCombo:Whorse " justtext="Horse" context="/Editor/combo/uniticons.ini:FillCombo:Whorse " result="Cavallo" comment=""/>
 <translationtableentry text="Whorse@Whorse class name" justtext="Horse" context="Whorse class name" result="Cavallo" comment=""/>
