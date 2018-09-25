@@ -1,4 +1,4 @@
-# What's new?
+﻿# What's new?
 
 All the changes are listed below.
 
@@ -116,7 +116,7 @@ All the changes are listed below.
 
 ### OTHER EDITS
 
-* When you have a Teuton Tent and you put food inside it, now you can store it and decide when and what unit obtain. (price(food): 400 for Teuton Archers and Riders, 500 for Teuton Wolfs).
+* When you have a Teuton Tent and you put food inside it, now you can store it and decide when and what unit obtain. (price(food): 400 for Teuton Archers, Riders and Teuton Wolfs).
 * Added a new command shows hidden units
 * Improved 'Parry' mode (Contenimento / Contencion) system
 * Improved AI system
