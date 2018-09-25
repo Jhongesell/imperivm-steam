@@ -13,6 +13,7 @@ int exp_gain = 0;
 int lastPlayer = 0;
 int waiting = 0;
 bool bTrain = false;
+str class;
 
 Sleep(100);
 
@@ -74,21 +75,22 @@ while(true)
 
 	if(EnvReadInt(.settlement(), "ENV_TProd") == RIDER)
 	{
-		teuton = Place("TTeutonRider", .pos(), .player());
+		class = "TTeutonRider";
 		bTrain = true;
 	}
 	else if(EnvReadInt(.settlement(), "ENV_TProd") == ARCHER)
 	{
-		teuton = Place("TTeutonArcher", .pos(), .player());
+		class = "TTeutonArcher";
 		bTrain = true;
 	}
 	else if(EnvReadInt(.settlement(), "ENV_TProd") == WOLF)
 	{
-		teuton = Place("TTeutonWolf", .pos(), .player());
+		class = "TTeutonWolf";
 		bTrain = true;
 	}
 	else
 	{
+		class = "";
 		bTrain = false;
 		Sleep(1000);
 		continue;
@@ -96,6 +98,7 @@ while(true)
 	
 	if(bTrain == true && waiting >= 15000)
 	{
+		teuton = Place(class, .pos(), .player());
 		.settlement().SetFood(.settlement.food() - FOOD_COST);
 		
 		teuton.SetFood(teuton.maxfood());
@@ -104,6 +107,7 @@ while(true)
 		teuton.SetExperience(exp_gain);
 	
 		waiting = 0;
+		bTrain = false;
 	}
 	
 	waiting += 1000;
