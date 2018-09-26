@@ -10,7 +10,6 @@ All the changes are listed below.
 
 * Gaul and Carthago Sentries
 * Some translations
-* The only speed available online is 140%. It's set by default and you can't change it.
 * The number of wild Horses and Deers now is more balanced.
 * The "Army's starving" notification now disappears automatically after 2 seconds.
 * Horse. Now if you go with the horse near to an enemy townhall or guardposts, you will lose the control of the horse
