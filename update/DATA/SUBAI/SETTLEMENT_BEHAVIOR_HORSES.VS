@@ -32,6 +32,7 @@ while(1)
 				h.SetPlayer(15);
 			}
 		}
+        Sleep(20);
 	}
-    Sleep(20);
+    Sleep(1000);
 }
