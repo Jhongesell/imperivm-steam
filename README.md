@@ -8,12 +8,16 @@ You need Python 3 to use some utilities.
 
 In the 'docs' folder there is the whole documentation. There you can read what we want to change in the next version. Instead, in the 'update' folder, you can find the 'changelog.md' file which contains what we changed until now.
 
-## Contacts
+## Credits and Contacts
 
-* Referee: fabian (a.k.a. razor)
-* Main programmers: ricky96highlander, danijerez, themaster0017
-* Testers: joseliyo, jordi
-* Translator: julioperez
+* **Referents**: Fabio Marigo, Daniel Jerez Garrido
+* **Programmers**: Daniel Jerez Garrido, Riccardo Tedesco, Giorgio Oggiano, Fabio Marigo
+* **Graphics**: Fabio Marigo
+* **Music**: Giorgio Oggiano, Edoardo Francioni
+* **VPN Multiplayer Client**: Daniel Jerez Garrido
+* **VPN Multiplayer Server**: Jordi Gellida Fontela
+* **Balance and QA**: Jordi Gellida Fontela, Jose Antonio Gallardo Ruiz, Fabio Marigo
+* **Translations**: Julio Alberto Perea Mancera
 
 We recommend to join our DISCORD server: https://discord.gg/RErjBq8 . There you can start to be in touch with us and give us your feedback and ideas.
 
