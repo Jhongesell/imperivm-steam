@@ -1,3 +1,5 @@
+## (!) this repo is outdated because of a migration to gitlab. more info here https://rattlesmake.gitlab.io/
+
 ![imperivm3](https://i.imgur.com/K95cgIs.png)
 
 This project aims to create an updated Imperivm version for Steam with a lot of adjustments and, if possible, a dedicated online server. This repository contains the launcher code, every alteration to the original game (the starting point is 1.40 version) and some useful applications (ARCH.exe and the two NEMESIS applications).
