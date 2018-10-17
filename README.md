@@ -1,4 +1,4 @@
-## (!) this repo is outdated because of a migration to gitlab. more info here https://rattlesmake.gitlab.io/
+**(!) this repo is outdated because of a migration to gitlab. more info here https://rattlesmake.gitlab.io/**
 
 ![imperivm3](https://i.imgur.com/K95cgIs.png)
 
